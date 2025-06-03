@@ -69,6 +69,7 @@ nav:
       - Export: jak_zpracovat_dokument/export.md
       - Konkrétní typy dokumentů:
           - Monografie: jak_zpracovat_dokument/monografie.md
+          - Vícesvazková monografie: jak_zpracovat_dokument/vicesvazkova_monografie.md
           - Periodika: jak_zpracovat_dokument/periodika.md
           - E-monografie: jak_zpracovat_dokument/e_monografie.md
           - Zvukové dokumenty: jak_zpracovat_dokument/zvukove_dokumenty.md
