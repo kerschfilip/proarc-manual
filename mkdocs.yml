@@ -1,0 +1,76 @@
+site_name: ProArc - uživatelská dokumentace
+site_url: https://mydomain.org/mysite
+theme:
+  logo: images/logo-proarc-7.svg
+  favicon: images/favicon.ico
+  name: material
+  language: cs
+  font:
+    text: Roboto
+    code: Red Hat Mono
+  palette: 
+  # toggle pro light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Přepnout na tmavý režim
+    # toggle pro dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Přenost na světlý režim
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.follow
+    - navigation.top
+extra_css:
+  - stylesheets/extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/proarc/proarc-client/wiki
+      name: ProArc na GitHubu
+  status:
+    new: Nově přidáno
+    old: Zastaralé
+copyright: Copyright &copy; 2025 Knihovna Akademie věd ČR, v. v. i.
+
+nav:
+  - Úvod:
+      - Základní informace: index.md
+      - Historie projektu a financování: historie_projektu_a_financovani.md
+      - Kontakt: kontakt.md
+  - Základní přehled:
+      - Základní přehled: zakladni_prehled/zakladni_prehled.md
+      - Přihlášení a základní navigace: zakladni_prehled/prihlaseni_a_zakladni_navigace.md
+      - Vzhled uživatelského rozhraní: zakladni_prehled/vzhled_uzivatelskeho_rozhrani.md
+      - Ikony a jejich význam: zakladni_prehled/ikony_a_jejich_vyznam.md
+      - Hlavní nabídky a kde co najít: zakladni_prehled/hlavni_nabidky_a_kde_co_najit.md
+      - Obrazovka Vyhledávání: zakladni_prehled/obrazovka_vyhledavani.md
+      - Obrazovka Editace: zakladni_prehled/obrazovka_editace.md
+      - Obrazovka Import: zakladni_prehled/obrazovka_import.md
+  - Jak zpracovat dokument?:
+      - Obecný postup zpracování dokumentů: jak_zpracovat_dokument/jak_zpracovat_dokument.md
+      - Založení objektu: jak_zpracovat_dokument/zalozeni_objektu.md
+      - Import dat: jak_zpracovat_dokument/import_dat.md
+      - Popis dokumentu: jak_zpracovat_dokument/popis_dokumentu.md
+      - Editace dokumentu: jak_zpracovat_dokument/editace_dokumentu.md
+      - Identifikátory: jak_zpracovat_dokument/identifikatory.md
+      - Validace: jak_zpracovat_dokument/validace.md
+      - Export: jak_zpracovat_dokument/export.md
+      - Konkrétní typy dokumentů:
+          - Monografie: jak_zpracovat_dokument/monografie.md
+          - Periodika: jak_zpracovat_dokument/periodika.md
+          - E-monografie: jak_zpracovat_dokument/e_monografie.md
+          - Zvukové dokumenty: jak_zpracovat_dokument/zvukove_dokumenty.md
+
+  
