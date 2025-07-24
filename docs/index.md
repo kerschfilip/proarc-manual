@@ -45,10 +45,10 @@ Systém v současnosti podporuje popis a zpracování:
   * Fedora Commons repository >> Akubra
   * Java
   * PostgreSQL
-  * Kakadu - použití pro vytvoření JPG2000. Pro získání instalace určené pro využití v ProArcu pro nekomerční účely je možné kontaktovat Národní knihovnu ČR (Ing. Petr Kukač, petr.kukac@nkp.cz)
+  * Kakadu - použití pro vytvoření JPG2000. Pro získání instalace určené pro využití v ProArcu pro nekomerční účely je možné kontaktovat Národní knihovnu ČR [Ing. Petr Kukač, petr.kukac@nkp.cz](mailto:petr.kukac@nkp.cz)
 
-**Systémy, které navazují nebo poskytují dostupnou funkcionalitu**
-  * Systém Kramerius [https://github.com/ceskaexpedice/kramerius](https://github.com/ceskaexpedice/kramerius)
+Systémy, které navazují nebo poskytují dostupnou funkcionalitu
+ - Systém Kramerius [https://github.com/ceskaexpedice/kramerius](https://github.com/ceskaexpedice/kramerius)
 
 ## Financování
 Financování vývoje je průběžně hrazeno zejména díky podpoře z dotačních programů Ministerstva kultury ČR NAKI a VISK.
