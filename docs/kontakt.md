@@ -1,7 +1,13 @@
-﻿# Kontakt
+﻿# Kontakt a zapojení
+**Dotazy/chyby/návrhy na rozvoj/nedostatky dokumentace  je možné hlásit prostřednictvím GitHub issues**: https://github.com/proarc/proarc-client/issues  
 
-Koordinátorem současného vývoje je Knihovna Akademie věd ČR zastoupená Ing. Martinem Lhotákem.
+**E-mailová skupina pro uživatele** sloužící k zasílání přehledu novinek: https://groups.google.com/g/proarc-users/about 
 
-Kontakt: Ing. Martin Lhoták, Knihovna AV ČR, v. v. i., Národní 3, 115 22 Praha 1, lhotak@knav.cz
+Členy vývojového týmu jsou zástupci Knihovny AV ČR, Moravské zemské knihovny v Brně, Studijní a vědecké knihovny v Hradci Králové a městské knihovně v Praze
 
-Mailová skupina: https://groups.google.com/g/proarc-users/about
+**Hlavní kontakt**: info@proarc.cz
+
+Vývoj projektu koordinuje Knihovna Akademie věd spolu s Národní knihovnou ČR a Moravskou zemskou knihovnou v Brně. 
+- Ing. Martin Lhoták, Knihovna AV ČR, lhotak@knav.cz.
+- Ing. Petr Kukač, Národní knihovna ČR, petr.kukac@nkp.cz.
+- Ing. Petr Žabička, Moravská zemská knihovna v Brně, petr.zabicka@mzk.cz
