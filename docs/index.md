@@ -8,11 +8,13 @@ Systém je volně dostupný pod licencí [GNU GPLv3](https://github.com/proarc/p
 - [klientské aplikace](https://github.com/proarc/proarc-client/) ([technická dokumentace](https://github.com/proarc/proarc-client/wiki)).
 
 **Poslední stabilní verze**
-* [Jádro 4.2.9](https://github.com/proarc/proarc/releases/tag/v4.2.9)
-* [Klient 2.3.5](https://github.com/proarc/proarc-client/releases/tag/v2.3.5)
+
+* [Jádro 4.2.9](https://github.com/proarc/proarc/releases/tag/v4.2.9),
+* [Klient 2.3.5](https://github.com/proarc/proarc-client/releases/tag/v2.3.5).
 
 ## Podporované typy dokumentů
 Systém v současnosti podporuje popis a zpracování:
+
 - periodik,
 - monografií,
 - zvukových dokumentů (gramofonové desky, fonografické válečky),
@@ -46,22 +48,23 @@ Systém v současnosti podporuje popis a zpracování:
   * Kakadu - použití pro vytvoření JPG2000. Pro získání instalace určené pro využití v ProArcu pro nekomerční účely je možné kontaktovat Národní knihovnu ČR (Ing. Petr Kukač, petr.kukac@nkp.cz)
 
 **Systémy, které navazují nebo poskytují dostupnou funkcionalitu**
-  * Systém Kramerius https://github.com/ceskaexpedice/kramerius
+  * Systém Kramerius [https://github.com/ceskaexpedice/kramerius](https://github.com/ceskaexpedice/kramerius)
 
 ## Financování
 Financování vývoje je průběžně hrazeno zejména díky podpoře z dotačních programů Ministerstva kultury ČR NAKI a VISK.
 
 ## Kontakt a zapojení
-**Dotazy/chyby/návrhy na rozvoj/nedostatky dokumentace je možné hlásit prostřednictvím GitHub issues**: https://github.com/proarc/proarc-client/issues  
+**Dotazy/chyby/návrhy na rozvoj/nedostatky dokumentace je možné hlásit prostřednictvím GitHub issues**: [https://github.com/proarc/proarc-client/issues](https://github.com/proarc/proarc-client/issues)  
 
-**E-mailová skupina pro uživatele** sloužící k zasílání přehledu novinek: https://groups.google.com/g/proarc-users/about 
+**E-mailová skupina pro uživatele** sloužící k zasílání přehledu novinek: [https://groups.google.com/g/proarc-users/about](https://groups.google.com/g/proarc-users/about) 
 
 Členy vývojového týmu jsou zástupci Knihovny AV ČR, Moravské zemské knihovny v Brně, Studijní a vědecké knihovny v Hradci Králové a městské knihovně v Praze
 
-**Hlavní kontakt**: info@proarc.cz
+**Hlavní kontakt**: [info@proarc.cz](mailto:info@proarc.cz)
 
 Vývoj projektu koordinuje Knihovna Akademie věd spolu s Národní knihovnou ČR a Moravskou zemskou knihovnou v Brně. 
-- Ing. Martin Lhoták, Knihovna AV ČR, lhotak@knav.cz.
-- Ing. Petr Kukač, Národní knihovna ČR, petr.kukac@nkp.cz.
-- Ing. Petr Žabička, Moravská zemská knihovna v Brně, petr.zabicka@mzk.cz
+
+- Ing. Martin Lhoták, Knihovna AV ČR, [lhotak@knav.cz](mailto:lhotak@knav.cz)
+- Ing. Petr Kukač, Národní knihovna ČR, [petr.kukac@nkp.cz](mailto:petr.kukac@nkp.cz)
+- Ing. Petr Žabička, Moravská zemská knihovna v Brně, [petr.zabicka@mzk.cz](mailto:petr.zabicka@mzk.cz)
 
