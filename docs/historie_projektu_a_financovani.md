@@ -5,3 +5,6 @@ ProArc byl vyvinut v rámci projektu Česká digitální knihovna, financovanéh
 Iniciátorem vzniku systému byla Knihovna Akademie věd ČR, která již více než deset let koordinuje jeho vývoj. Brzy po jeho vzniku se k vývoji a nasazení připojila Studijní a vědecká knihovna v Hradci Králové. V současnosti se na vývoji podílejí také Moravská zemská knihovna v Brně (MZK) a Městská knihovna v Praze. 
 
 Systém pravidelně využívá více než 14 institucí, přičemž další instalace se plánují například v rámci Národního plánu obnovy. 
+
+## Financování
+Financování vývoje je průběžně hrazeno zejména díky podpoře z dotačních programů Ministerstva kultury ČR NAKI a VISK.
