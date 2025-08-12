@@ -1,347 +1,302 @@
-# Základní postup při zpracování Monografie
+--- 
+status: new
+---
 
-## Textové dokumenty
+# NDK svazek monografie
 
-Textovými dokumenty zde rozumíme dokumenty založené na zpracování skenů
-předloh, zahrnujeme mezi ně tedy i hudebniny (notové zápisy) a
-kartografické dokumenty.
+NDK svazek monografie patří mezi textové dokumenty - tedy díla vzniklá
+digitalizací tištěných nebo ručně psaných předloh. Do této skupiny
+spadají mimo jiné také hudebniny (notové zápisy) a kartografické
+dokumenty.
 
-### NDK svazek monografie
+Podle [standardů Národní digitální knihovny
+(NDK)](https://standardy.ndk.cz/ndk/standardy-digitalizace/DMF_monografie_2.2_final_17_12_24.pdf)
+je tento model definován jako výhradně jednosvazkové dílo.
 
-NDK svazek monografie je v souladu se standardy Národní digitální
-knihovny (dále NDK) výhradně jednosvazkové dílo.
+## Vytvoření digitálního dokumentu (objektu)
 
-#### Vytvoření digitálního dokumentu (objektu)
+V navigační liště úložiště klikněte na možnost **Nový objekt**.
 
-V navigační liště úložiště zvolíme „Nový objekt". Otevře se dialogové
-okno shodné pro zakládání všech modelů (typů dokumentů):
+![](./media/monografie/image1.png)
 
-![Obsah obrázku text, snímek obrazovky, Písmo, řada/pruh Popis byl
-vytvořen
-automaticky](media/monografie/image1.png){width="6.268055555555556in"
-height="2.60625in"}
+Zobrazí se dialogové okno, které slouží pro založení všech typů
+dokumentů (modelů).
 
-- Model -- v roletce si vybereme typ objektu, který chceme vytvořit. V
-  nabídce jsou typy dokumentů dle standardů Národní digitální knihovny i
-  pro dokumenty, které standard zatím nemají popsán (modely STT, kroniky
-  apod.).
+![](./media/monografie/image2.png)
 
-- Vlastní PID - určeno pro případy, kdy je nutné opravit nebo doplnit
-  dokument, který v ProArcu není, ale je již v DK. Příklad bude uveden
-  v budoucí kapitole o speciálních importních funkcích.
+**Model** - V rozbalovací nabídce vyberte typ objektu, který chcete
+vytvořit. K dispozici jsou modely odpovídající standardům NDK, včetně
+typů, které zatím nemají detailní specifikaci (např. modely STT, kroniky
+aj.).
 
-- Nové objekty primárně zakládáme stažením dat z katalogu, ale tlačítkem
-  „Vytvořit" lze otevřít prázdný formulář a metadata zadat manuálně.
+**Vlastní PID** - Tato možnost slouží v případech, kdy je potřeba
+doplnit nebo opravit dokument, který není v systému ProArc, ale již
+existuje v Digitální knihovně.
 
-![Obsah obrázku text, Písmo, řada/pruh, číslo Popis byl vytvořen
-automaticky](media/monografie/image2.png){width="6.268055555555556in"
-height="1.2381944444444444in"}
+Nové objekty se standardně zakládají stažením dat z katalogu. V
+roletkách tohoto dialogu vyberete zdrojový katalog, údaj, podle, kterého
+chcete záznam vyhledat a odpovídající hodnotu (již konkrétní název, ISBN
+aj.) a zvolte **Vyhledat**.
 
-V roletkách tohoto dialogu vybereme zdrojový katalog, údaj, podle,
-kterého chceme záznam vyhledat a odpovídající hodnotu (název, ISBN ...)
+![](./media/monografie/image3.png)
 
-Před vlastním založením objektu lze metadata upravit v náhledu
-formuláře:
+Pokud ale potřebujete zadat metadata ručně, lze otevřít prázdný formulář
+pomocí tlačítka **Vytvořit**. Před samotným založením objektu lze
+metadata upravit v náhledu formuláře:
 
-![Obsah obrázku text, snímek obrazovky, číslo, Písmo Popis byl vytvořen
-automaticky](media/monografie/image3.png){width="5.887028652668416in"
-height="6.24249343832021in"}
+![](./media/monografie/image4.png)
 
-Volbou „Vytvořit a přejít do objektu" (resp. „Vytvořit") systém objekt
-uloží do databáze.
+Pro uložení objektu použijte možnost **Vytvořit a přejít do objektu**
+(nebo pouze **Vytvořit**). Systém následně uloží objekt do databáze.
 
-Systém hlídá povinná pole v souladu se standardy NDK. Pokud pole s
-označením M (Mandatory) není vyplněno, objekt se neuloží a chybná pole
-se červeně označí.
+Systém automaticky kontroluje vyplnění povinných polí podle standardů
+NDK. Pokud některé pole označené jako **M (Mandatory)** není vyplněno,
+uložení nebude umožněno a chybná pole budou zvýrazněna červeně.
 
-![](media/monografie/image4.png){width="3.899701443569554in"
-height="1.8670636482939633in"}
+![](./media/monografie/image5.png)
 
-Po případné opravě a úspěšném uložení objektu nás systém přepne přímo do
-editačního okna („Vytvořit a přejít do objektu") nebo do úložiště
-(„Vytvořit"), odkud se do editace dostaneme dvojklikem na objektu. Zde
-můžeme pracovat s metadaty již vytvořeného objektu.
+!!! info "Ostatní povinnosti vyplnění formuláře jsou následující:" 
+    - **M** - mandatory (povinně plnit - element je součástí každého záznamu)
+    - **MA** - mandatory if available (povinně plnit, pokud je to možné, pokud lze apod.)
+    - **R** - recommended (plnění hodnot elementu je doporučeno, není ovšem povinné)
+    - **RA** - recommended if available (doporučeno, pokud lze plnit)
+    - **O** - optional (plnění hodnot elementu závisí na konkrétních potřebách instituce)
 
-![Obsah obrázku text, snímek obrazovky, software, Počítačová ikona Popis
-byl vytvořen
-automaticky](media/monografie/image5.png){width="6.268055555555556in"
-height="3.7694444444444444in"}
+!!! tip "Tip" 
+  
+    K vyplňování metadat můžete využít [Pravidla pro popis monografií](https://standardy.ndk.cz/ndk/standardy-digitalizace/ppp_mono_2.3_final_17_12_24.pdf).
 
-Šíři podoken lze měnit tažením myší. Jejich uspořádání v editaci je
-velmi variabilní, lze si je upravit kdykoli během práce. Provádí se
-pomocí ikony vpravo na liště:
+Po úspěšném uložení a případné opravě budete přesměrováni následovně:
 
-![](media/monografie/image6.png){width="6.261111111111111in"
-height="0.26944444444444443in"}
+- Zvolíte-li **Vytvořit a přejít do objektu**, otevře se rovnou editační
+  okno daného objektu.
+- Zvolíte-li **Vytvořit**, vrátíte se zpět do úložiště. Editaci objektu
+  poté otevřete dvojklikem.
 
-Zobrazení nového objektu v editaci v úložišti výše odpovídá tomuto
-rozložení podoken:
+V editačním prostředí dále pracujte s metadaty právě vytvořeného
+objektu.
 
-![Obsah obrázku text, snímek obrazovky, Písmo, číslo Popis byl vytvořen
-automaticky](media/monografie/image7.png){width="6.268055555555556in"
-height="4.611111111111111in"}
+![](./media/monografie/image6.png)
 
-#### Načtení dat 
+Šířku jednotlivých podoken lze upravovat tažením myši. Rozvržení lze
+přizpůsobit kdykoli během práce. Úpravy provádějte pomocí ikony v pravé
+části horní lišty:
 
-S uživatelem v ProArcu jsou svázány pracovní adresáře, o jejich
-namapování uživatele informuje administrátor.
+![](./media/monografie/image7.png)
 
-- Do adresáře určeného k importu připravíme skeny ve formátu TIFF, k nim
-  vytvořené OCR soubory ve formátu TXT a ALTO soubory (ve formátu XML).
-  Pro NDK modely NELZE importovat tiffy bez OCR a ALTO.
+Zobrazení nově vytvořeného objektu v editačním prostředí odpovídá tomuto
+výchozímu rozložení podoken (Tabulka, Popisná metadata, Obrázek):
 
-- V levé části navigační lišty ProArcu zvolíme tlačítko „Import" a
-  přejdeme tak do importní obrazovky.
+![](./media/monografie/image8.png)
 
-![Obsah obrázku text, Písmo, číslo, řada/pruh Popis byl vytvořen
-automaticky](media/monografie/image8.png){width="6.263888888888889in"
-height="1.98125in"}
+## Načtení dat 
 
-- Zde vybereme adresář s daty dokumentu, který chceme zpracovávat
+Každý uživatel má v ProArcu přiřazeny pracovní adresáře. O jejich
+namapování informuje uživatele systémový administrátor.
 
-- Vybereme „Profil načítání" podle zpracovávaného modelu. V případě NDK
-  modelů pro textové dokumenty použijeme profil „Default". Další profily
-  budou popsány se souvisejícími procesy.
+Do adresáře určeného pro import připravte:
 
-- „Priorita" je defaultně nastavena na hodnotu „Střední". Zvolením vyšší
-  priority můžeme načítaný soubor předřadit ve frontě souborům s nižší
-  prioritou, jinak se zařadí na její konec.
+- skeny ve formátu **TIFF**,
+- k nim odpovídající **OCR soubory ve formátu TXT**,
+- a **ALTO soubory ve formátu XML**.
 
-- „Zařízením" se rozumí přístroj, na kterém byla načítaná data
-  připravena -- typicky je jím skener. Pro většinu modelů je zařízení
-  povinné, teprve po jeho výběru se aktivuje tlačítko „Načíst"
+!!! warning "Upozornění" 
+  
+    Pro NDK modely není možné importovat TIFF soubory bez odpovídajících OCR a ALTO souborů.*
 
-- Funkce „Generovat index stránek" je defaultně zapnuta, postará se
-  přiřazení indexů stranám dokumentu již při načítání.
+Pro zahájení importu klikněte v levé části navigační lišty ProArcu na
+tlačítko **Import**. Tím přejdete do importního rozhraní.
 
-- Ikona ![](media/monografie/image9.png){width="0.31454943132108487in"
-  height="0.27754374453193353in"} slouží k opětovnému načtení již
-  načtené dávky (z různých důvodu je někdy potřeba opět načíst tutéž
-  dávku dokumentů - např. vadný soubor apod.). ProArc v importním
-  adresáři vytváří pomocné soubory, které je potřeba smazat před
-  opětovným načtením -- tato ikona soubory automaticky promaže.
+![](./media/monografie/image9.png)
 
-- Je možné vybrat pro import i více dávek najednou - dávky se řadí do
-  fronty a načítají se postupně.
+V importním rozhraní vyberte adresář s daty dokumentu, který chcete
+zpracovat.
 
-Po spuštění načítání můžeme v případě jedné dávky sledovat v dialogovém
-okně postup načítání. Toto okno je možné zavřít a načítání bude probíhat
-dále na pozadí. Stav lze sledovat ve Správě importních procesů:
+V poli **Profil** načítání zvolte profil podle typu modelu. Pro textové
+dokumenty v NDK modelech použijte profil **Default**.
 
-![Obsah obrázku text, snímek obrazovky, Písmo, bílé Popis byl vytvořen
-automaticky](media/monografie/image10.png){width="4.250592738407699in"
-height="1.7294083552055992in"}
+**Priorita** je ve výchozím stavu nastavena na **Střední**. Zvolíte-li
+vyšší prioritu, bude se dávka ve frontě zpracovávat dříve než ostatní.
+Jinak se zařadí na konec fronty.
 
-V případě souběžného spuštění více dávek přejdeme rovnou do Správy
-importních procesů a vybereme „Zobrazit frontu načítání"
+V poli „**Zařízení**" vyberte přístroj, na kterém byla data připravena
+(typicky je jím **skener**). Výběr zařízení je pro většinu modelů
+povinný. Tlačítko **Načíst** se aktivuje až po jeho zvolení.
 
-![Obsah obrázku text, snímek obrazovky, Písmo Popis byl vytvořen
-automaticky](media/monografie/image11.png){width="4.265458223972003in"
-height="2.0375185914260716in"}
+Funkce **Generovat index stránek** je ve výchozím stavu zapnutá.
+Zajišťuje automatické přiřazení indexů stránkám již během načítání.
 
-Zde pak vidíme průběh načítání v tabulkovém zobrazení, stav lze
-aktualizovat tlačítkem „Obnovit".
+Ikona ![](./media/monografie/image10.png) slouží k opětovnému
+načtení dávky, např. v případě vadného souboru. Před novým načtením
+ProArc automaticky smaže pomocné soubory, které při předchozím importu
+vytvořil.
 
-![Obsah obrázku text, Písmo, snímek obrazovky, software Popis byl
-vytvořen
-automaticky](media/monografie/image12.png){width="6.268055555555556in"
-height="1.675in"}
+Lze také vybrat více dávek najednou - dávky se zařadí do fronty a
+zpracují se postupně.
 
-Je-li načítání ukončeno, proces z tohoto zobrazení zmizí a je zapotřebí
-přejít „Zpět na seznam všech procesů". Zde označíme načtenou dávku ke
-zpracování -- na liště se objeví tlačítka „Načíst znovu" a „Pokračovat":
+Po spuštění načítání se v případě jedné dávky zobrazí dialogové okno s
+průběhem importu. Toto okno můžete **Zavřít** - načítání bude i nadále
+probíhat na pozadí.
 
-![](media/monografie/image13.png){width="6.254861111111111in"
-height="1.7166666666666666in"}
+![](./media/monografie/image11.png)
 
-#### Popis obrazových dat (paginace)
+Aktuální stav importu můžete sledovat ve **Správě importních procesů**.
+V případě souběžného spuštění více dávek budete automaticky přesměrováni
+do **Správy importních procesů**. Zde klikněte na možnost **Zobrazit
+frontu načítání**.
 
-Volbou „Pokračovat" po načtení se dávka otevře v okně „Správa dávek --
-editace". I tady lze podokna uspořádat pomocí ikony
-![](media/monografie/image14.png){width="0.16978346456692914in"
-height="0.15480205599300087in"}
+![](./media/monografie/image12.png)
 
-![Obsah obrázku text, software, Počítačová ikona, Webová stránka Popis
-byl vytvořen
-automaticky](media/monografie/image15.png){width="6.268055555555556in"
-height="2.4347222222222222in"}
+V tabulkovém zobrazení uvidíte průběh importu jednotlivých dávek.\
+Aktuální stav lze ručně aktualizovat pomocí tlačítka **Obnovit**.
 
-- Každé podokno má na horní liště svou sadu použitelných funkcí, při
-  posunu myši na ikonu se zobrazí popis funkce.
+![](./media/monografie/image13.png)
 
-- Rozložení a výběr zobrazovaných sloupců lze změnit v okně „Profil"
-  [[4.1.3]{.underline}](#_heading=h.26in1rg).
+Jakmile je načítání dokončeno, daný proces zmizí z aktuálního
+zobrazení.\
+Je proto nutné kliknout na možnost **Zpět na seznam všech procesů**.
 
-- Změníme-li ve formuláři popis jedné strany, po stisknutí ENTER se
-  změna uloží a automaticky se přesuneme na další stranu
+V přehledu procesů označte dokončenou dávku, čímž se v horní liště
+zpřístupní tlačítka:
 
-![](media/monografie/image16.png){width="6.263888888888889in"
-height="4.934027777777778in"}
+- **Načíst znovu** - pro opětovný import dávky,
+- **Pokračovat** - pro zahájení dalšího zpracování.
 
-Hromadné paginování lze provést označením bloku myší nebo pomocí kláves
-SHIFT/CTRL a nastavením parametrů popisu ve formuláři. Pro uložení změn
-je nutné použít klávesu ENTER nebo ikonu diskety.
+> ![](./media/monografie/image14.png)
 
-Ve chvíli, kdy jsou všechny objekty popsány povinným elementem (v tomto
-případě číslem strany), použijeme tlačítko „Pokračovat". Proběhne
-validace a pokud nejsou všechny strany očíslovány, objeví se informace o
-chybě a chybná strana je červeně podbarvena kvůli snazší identifikaci.
+## Popis obrazových dat (paginace)
 
-![Obsah obrázku text, snímek obrazovky, Písmo, design Popis byl vytvořen
-automaticky](media/monografie/image17.png){width="3.2087806211723535in"
-height="2.073206474190726in"}
+Po kliknutí na tlačítko **Pokračovat** se načtená dávka otevře v okně
+**Správa dávek - editace**.
 
-Po opravě a úspěšné validaci otevře tlačítko „Pokračovat" obrazovku pro
-výběr nadřazeného objektu, tj. titulu, k němuž patří naimportované a
-popsané strany:
+Také zde lze uspořádat podokna dle potřeby pomocí ikony pro změnu
+rozložení zobrazení ![](./media/monografie/image15.png).
 
-![Obsah obrázku text, snímek obrazovky, Písmo, číslo Popis byl vytvořen
-automaticky](media/monografie/image18.png){width="6.268055555555556in"
-height="3.0729166666666665in"}
+![](./media/monografie/image16.png)
 
-Pro zkrácení seznamu k výběru zadáme patřičný model a blíže určíme titul
-např. částí názvu. V horní části okna vybereme ze seznamu cílový objekt
-a po uložení můžeme objekt buď otevřít rovnou v editoru úložiště nebo si
-jej najdeme v hlavním okně úložiště.
+Každé podokno v rozhraní **Správa dávek - editace** má v horní liště
+vlastní sadu funkcí.\
+Při najetí myší na jednotlivé ikony se zobrazí jejich popis.
 
-![Obsah obrázku text, snímek obrazovky, Písmo, logo Popis byl vytvořen
-automaticky](media/monografie/image19.png){width="4.625645231846019in"
-height="1.9586067366579178in"}
+Rozložení zobrazení a výběr viditelných sloupců můžete upravit v okně
+**Profil**.
 
-#### Úprava (editace) dokumentu
+Pokud změníte popis u konkrétní strany, změna se uloží po stisknutí
+klávesy **ENTER**. Kurzor se poté automaticky přesune na další stranu.
 
-Zobrazení v editoru je stejné, jako v případě nově založeného objektu
-(viz kap. 3.1.1.1 ), nyní ale můžeme vidět i seznam přiřazených stran a
-jejich náhledy. Můžeme upravovat metadata jak pro strany, tak na úrovni
-titulu, a to ve formuláři i přímo v XML.
+Pro hromadné označení více stran použijte myš nebo klávesy SHIFT/CTRL.
+Nastavte parametry popisu ve formuláři a změny potvrďte klávesou
+**ENTER** nebo kliknutím na ikonu diskety:
 
-Při každé provedené změně se aktivuje jinak zašedlá ikona diskety a
-změnu je zapotřebí jejím stiskem uložit.
+![](./media/monografie/image17.png)
 
-Také zde má každé podokno lištu s řadou funkcí, jejich popis se zobrazí
-po najetí myší na ikonu. Méně používané funkce jsou skryté pod třemi
-tečkami.
+Jakmile jsou všechny strany popsány povinným elementem (např. číslem
+strany), klikněte na tlačítko **Pokračovat**. Systém provede validaci
+záznamů.
 
-![](media/monografie/image20.png){width="6.268055555555556in"
-height="0.3958333333333333in"}
+![](./media/monografie/image18.png)
 
-Podokno se zobrazenými stranami (ať už ve formě tabulky nebo dlaždic)
-umožňuje strany nebo jejich skupiny přesouvat na nové pozice v rámci
-dokumentu -- myší nebo pomocí funkce „Změnit pozici"
+Pokud některé strany chybí nebo obsahují chybu, zobrazí se upozornění a
+problémové strany budou červeně zvýrazněny pro snadnou identifikaci.
 
-Pokud se nacházíme na úrovni podřízených objektů (zde stran), na úroveň
-nadřazeného objektu nejsnáze přejdeme kliknutím na odkaz s názvem titulu
-na liště:
+Po úspěšné validaci se otevře okno pro výběr nadřazeného objektu, tedy
+titulu, k němuž patří právě popsané a importované strany.
 
-![](media/monografie/image21.png){width="6.263888888888889in"
-height="4.131944444444445in"}
+![](./media/monografie/image19.png)
 
-#### Přidělení urn:nbn
+Pro zúžení seznamu vyberte příslušný model a doplňte například část
+názvu titulu. V horní části okna označte požadovaný cílový objekt. Po
+uložení máte opět dvě možnosti - otevřít objekt rovnou v editoru
+úložiště, vyhledat jej později v hlavním okně úložiště.
 
-Abychom mohli zpracovanou dávku exportovat pro zveřejnění v DK či
-archivaci, měli bychom jí přidělit urn:nbn. Pro export NDK PSP balíčků a
-archivních balíčků je přidělení povinné, export ve starším formátu pro
-Krameria je možný bez urn:nbn.
+![](./media/monografie/image20.png)
 
-Urn:nbn můžeme dokumentu přidělit přímo v editaci v úložišti, funkce je
-skrytá na liště pod třemi tečkami:
+## Úprava (editace) dokumentu
 
-![](media/monografie/image22.png){width="6.263888888888889in"
-height="0.38680555555555557in"}
+Zobrazení objektu v editoru odpovídá tomu, které znáte z nově založeného
+objektu. Navíc je zde nyní dostupný seznam přiřazených stran spolu s
+jejich náhledy.
 
-![Obsah obrázku text, nářadí, design, mosaz Popis byl vytvořen
-automaticky](media/monografie/image23.png){width="1.2397561242344708in"
-height="1.0939031058617672in"}
+Můžete upravovat metadata na úrovni jednotlivých stran, i na úrovni
+titulu - a to jak ve **formuláři**, tak přímo v **XML** zobrazení.
 
-Další možností je přidělení v základním okně úložiště, kde je funkce
-umístěná na lištách obou horizontálních podoken:
+Po provedení jakékoli změny se aktivuje (již dříve zašedlá) ikona
+diskety. Pro uložení změn je nutné na tuto ikonu kliknout.
 
-![](media/monografie/image24.png){width="5.896527777777778in"
-height="0.49027777777777776in"}
+Každé podokno obsahuje lištu s funkcemi, jejichž popis se zobrazí při
+najetí myší na ikonu. Méně často používané funkce jsou skryty pod ikonou
+tří teček:
 
-Po stisknutí tlačítka se zobrazí dialogové ono, kde v roletce můžeme
-vybrat registrátora. Nejčastěji bude k dispozici jeden, ale pokud
-průběžně digitalizujeme i pro jinou instituci, která je sama
-registrátorem a máme povoleno jejím jménem registrovat dokumenty, můžeme
-ji mít v konfiguraci ProArcu.
+![](./media/monografie/image21.png)
 
-![Obsah obrázku text, snímek obrazovky, Písmo, řada/pruh Popis byl
-vytvořen
-automaticky](media/monografie/image25.png){width="6.268055555555556in"
-height="2.04375in"}
+V podokně se zobrazenými stranami (tabulkové nebo dlaždicové zobrazení)
+lze přesouvat jednotlivé strany nebo jejich skupiny na jiné pozice v
+rámci dokumentu, přesun lze provést buď myší, nebo pomocí funkce
+**Změnit pozici**. Nacházíte-li se na úrovni podřízených objektů (např.
+stran), můžete se na úroveň nadřazeného objektu (např. titulu) vrátit
+kliknutím na název titulu v horní liště editoru:
 
-Po registraci dostaneme zpětnou vazbu od resolveru a urn:nbn je
-automaticky zapsáno do metadat mezi platné identifikátory dokumentu:
+![](./media/monografie/image22.png)
 
-![Obsah obrázku text, snímek obrazovky, řada/pruh Popis byl vytvořen
-automaticky](media/monografie/image26.png){width="6.268055555555556in"
-height="1.7555555555555555in"}
+## Přidělení URN:NBN
 
-V ProArcu je ošetřena i zpětná vazba v případě, že omylem registrujeme
-dokument opětovně nebo dojde k chybě.
+Aby bylo možné zpracovanou dávku exportovat pro zveřejnění v Digitální
+knihovně (Kramerius) nebo pro archivaci, je nutné přidělit URN:NBN.
 
-#### Export dokumentu
+1\. URN:NBN lze přidělit přímo v editoru úložiště. Funkce je dostupná na
+liště pod ikonou tří teček:
 
-ProArc nabízí řadu exportních formátů, případně jejich propojení
-s externími systémy (digitálními knihovnami, úložišti ...). Není nutné
-mít v nabídce všechny dostupné formáty, lépe je nabídku omezit
-konfigurací konkrétní instance na potřebné varianty.
+![](./media/monografie/image23.png)
 
-V této kapitole uvedeme pouze nejběžnější a nejvíce používané formáty.
+2\. Druhou možností přidělení URN:NBN je v základním okně úložiště.
+Funkce je umístěna na lištách obou horizontálních podoken:
 
-Funkce Export je dostupná v editaci objektu v úložišti pod třemi tečkami
-a v základním okně úložiště (viz analogie s umístěním funkce přidělení
-urn:nbn v kap. [[3.1.1.5]{.underline}](#přidělení-urnnbn)).
+![](./media/monografie/image24.png)
 
-Všechny druhy exportů se spouštějí jako procesy na pozadí a vytvářejí
-frontu, kterou lze sledovat ve správě procesů. Dokumenty postupně
-získávají statusy *export naplánován -\> exportování -\> exportováno*,
-v horším případě *export skončil upozorněním* či dokonce *chyba
-exportu*. Ve filtru pro pole Status nelze vybrat více hodnot, může tedy
-být výhodné nastavit filtr na hodnotu „Vše".
+Po kliknutí na příslušné tlačítko se zobrazí dialogové okno, ve kterém v
+rozbalovacím poli (roletce) zvolte registrátora. Ve většině případů bude
+k dispozici jeden registrátor.
 
-![Obsah obrázku text, Písmo, číslo, snímek obrazovky Popis byl vytvořen
-automaticky](media/monografie/image27.png){width="6.268055555555556in"
-height="2.071527777777778in"}
+Pokud ale digitalizujete i pro jinou instituci, která je registrátorem,
+a máte oprávnění registrovat dokumenty jejím jménem, může být v seznamu
+dostupná i ona - záleží na konfiguraci ProArcu.
 
-##### NDK PSP balíček
+![](./media/monografie/image25.png)
 
-NDK PSP balíček je primárně používán k importům do digitální knihovny
-Kramerius s image serverem. Zároveň je formátem, ve kterém je nutno
-předat data do Národní digitální knihovny (např. na základě zpracování
-v projektu VISK) a ve kterém si knihovny mohou předávat data v rámci
-replikací.
+Po úspěšné registraci obdržíte zpětnou vazbu od resolveru. Identifikátor
+URN:NBN je automaticky zapsán do metadat dokumentu jako platný
+identifikátor:
 
-NDK PSP balíček můžeme vyexportovat do lokálního exportního adresáře
-nebo přímo do nakonfigurované (napojené) instance Krameria. O cíli
-exportu rozhodneme v dialogovém okně volbou z roletek.
+![](./media/monografie/image26.png)
 
-![Obsah obrázku text, snímek obrazovky, řada/pruh, Písmo Popis byl
-vytvořen
-automaticky](media/monografie/image28.png){width="6.268055555555556in"
-height="2.941666666666667in"}
+V ProArcu je ošetřena i situace, kdy omylem provedete opakovanou
+registraci téhož dokumentu, nebo dojde k technické chybě - systém vrátí
+odpovídající chybovou hlášku.
 
-##### Export pro Krameria
+## Export dokumentu
 
-Export ve starším formátu „Kramerius" lze podobně jako u NDK PSP balíčku
-směřovat do lokálního adresáře (viz obrázek) a pak jej ručně přemístit
-k importu do Krameria, nebo jej lze odeslat přímo do Krameria, pokud je
-tato varianta dostupná v naší konfiguraci.
+ProArc podporuje řadu exportních formátů a umožňuje i napojení na
+externí systémy - např. digitální knihovny nebo repozitáře.
 
-![Obsah obrázku text, snímek obrazovky, řada/pruh, Písmo Popis byl
-vytvořen
-automaticky](media/monografie/image29.png){width="6.268055555555556in"
-height="2.8291666666666666in"}
+Není však nutné mít v rozhraní dostupné všechny formáty.
 
-##### Archivace
+!!! tip "Tip"
+    Doporučujeme nabídku omezit konfigurací konkrétní instance pouze na ty formáty, které daná instituce skutečně využívá.
 
-Archivní balíčky se vytvářejí za účelem uložení dat na úložištích mimo
-ProArc. K dispozici je několik variant, jak s archivním balíčkem
-pracovat, zde zmíníme pouze základní formát:
+Funkce **Export** je dostupná v editoru objektu v úložišti pod ikonou
+tří teček, a také v základním okně úložiště.
 
-![Obsah obrázku text, snímek obrazovky, řada/pruh, Písmo Popis byl
-vytvořen
-automaticky](media/monografie/image30.png){width="6.268055555555556in"
-height="2.0347222222222223in"}
+### NDK PSP balíček
 
-## 
+NDK PSP balíček slouží primárně k importům do digitální knihovny
+Kramerius (s využitím image serveru), předávání dat do Národní digitální
+knihovny (např. v rámci projektu VISK), případně k replikaci dat mezi
+knihovnami.
+
+Export NDK PSP balíčku lze provést do lokálního exportního adresáře,
+nebo přímo do napojené instance Krameria, pokud je tato možnost
+nakonfigurována.
+
+Cílové umístění exportu zvolte v dialogovém okně pomocí roletky.
+
+![](./media/monografie/image27.png)

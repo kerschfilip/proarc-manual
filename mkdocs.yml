@@ -59,20 +59,25 @@ nav:
       - Obrazovka Vyhledávání: zakladni_prehled/obrazovka_vyhledavani.md
       - Obrazovka Editace: zakladni_prehled/obrazovka_editace.md
       - Obrazovka Import: zakladni_prehled/obrazovka_import.md
-  - Jak zpracovat dokument?:
-      - Obecný postup zpracování dokumentů: jak_zpracovat_dokument/jak_zpracovat_dokument.md
-      - Založení objektu: jak_zpracovat_dokument/zalozeni_objektu.md
-      - Import dat: jak_zpracovat_dokument/import_dat.md
-      - Popis dokumentu: jak_zpracovat_dokument/popis_dokumentu.md
-      - Editace dokumentu: jak_zpracovat_dokument/editace_dokumentu.md
-      - Identifikátory: jak_zpracovat_dokument/identifikatory.md
-      - Validace: jak_zpracovat_dokument/validace.md
-      - Export: jak_zpracovat_dokument/export.md
-      - Konkrétní typy dokumentů:
-          - Monografie: jak_zpracovat_dokument/monografie.md
-          - Vícesvazková monografie: jak_zpracovat_dokument/vicesvazkova_monografie.md
-          - Periodika: jak_zpracovat_dokument/periodika.md
-          - E-monografie: jak_zpracovat_dokument/e_monografie.md
-          - Zvukové dokumenty: jak_zpracovat_dokument/zvukove_dokumenty.md
-
+  - Obecné postupy:
+      - Obecný postup zpracování dokumentů: obecne_postupy/jak_zpracovat_dokument.md
+      - Založení objektu: obecne_postupy/zalozeni_objektu.md
+      - Import dat: obecne_postupy/import_dat.md
+      - Popis dokumentu: obecne_postupy/popis_dokumentu.md
+      - Editace dokumentu: obecne_postupy/editace_dokumentu.md
+      - Identifikátory: obecne_postupy/identifikatory.md
+      - Validace: obecne_postupy/validace.md
+      - Export: obecne_postupy/export.md
+  - Typy dokumentů: 
+      - Přehled dokumentů: jak_zpracovat_dokument/typy_dokumentu.md
+      - Postup zpracování konkrétních typů dokumentů:
+        - Monografie: jak_zpracovat_dokument/monografie.md
+        - Vícesvazková monografie: jak_zpracovat_dokument/vicesvazkova_monografie.md
+        - Periodika: jak_zpracovat_dokument/periodika.md
+        - E-monografie: jak_zpracovat_dokument/e_monografie.md
+        - Zvukové dokumenty: jak_zpracovat_dokument/zvukove_dokumenty.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   

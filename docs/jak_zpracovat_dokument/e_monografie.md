@@ -2,215 +2,191 @@
 status: new
 ---
 
-## 3.2 Born digital dokumenty (e-borny)
+# NDK Svazek eMonografie
 
-Dalším typem dokumentů, které je možné zpracovat v systému ProArc, jsou
-tzv. born-digital či e-born digitální dokumenty. Tyto dokumenty už
-vznikly elektronicky, v digitální podobě, není potřeba je digitalizovat
-a v některých případech vůbec nemají svoji tištěnou listinnou podobu.
-E-borny jsou nejčastěji ve formátu PDF, nebo EPUB.
+Digitální, nebo tzv. born-digital dokumenty (často označované jako
+„e-borny"), jsou dokumenty, které vznikly přímo v elektronické podobě.
+Tyto dokumenty už vznikly elektronicky, není potřeba je digitalizovat a
+v některých případech vůbec nemají svoji tištěnou listinnou podobu.
+Typickým příkladem jsou například elektronické knihy. Nejčastěji se
+vyskytují ve formátech PDF, EPUB nebo PDF/A, který je vhodný pro
+dlouhodobou archivaci.
 
-### 3.2.1 NDK Svazek eMonografie
+Model **NDK Svazek eMonografie** je určen pro zpracování elektronické
+monografické publikace jako samostatného dokumentu. Na rozdíl od
+periodik nejde o opakovaně vydávaný titul, ale o uzavřený celek. Tento
+model odpovídá standardům digitalizace stanoveným Národní knihovnou ČR.
 
-NDK Svazek eMonografie je model pro zpracování elektronické monografické
-publikace, který je v souladu se standardy Národní knihovny ČR.
+## Založení objektu
 
-#### 3.2.1.1 Založení objektu
+Po přihlášení do nového klienta ProArcu klikněte na horní záložku a
+zvolte **Nový objekt**:
 
-Po přihlášení do nového klienta ProArcu klikneme na horní záložku a
-vybereme Nový objekt:
+![](./media/e_monografie/image1.png)
 
-![](media/e_monografie/image1.png){width="6.267716535433071in"
-height="1.2777777777777777in"}Po kliknutí na Nový objekt se objeví
-tabulka. Z rozbalovací nabídky vybereme Model NDK Svazek eMonografie:
+Zobrazí se dialogové okno, ve kterém z rozbalovací nabídky vyberte model
+**NDK Svazek eMonografie**.
 
-![](media/e_monografie/image2.png){width="6.267716535433071in"
-height="2.9166666666666665in"}
+![](./media/e_monografie/image2.png)
 
-Nový objekt je možné vytvořit dvěma způsoby:
+Nový objekt můžete vytvořit dvěma způsoby:
 
-1.  Načíst metadata z připojeného katalogu,
+1\. **Načtením metadat z** připojeného **katalogu**.
 
-2.  založit jako prázdný pomocí tlačítka Vytvořit, v tomto případě
-    musíte metadata vyplnit ručně.
+2\. Založením prázdného objektu pomocí tlačítka **Vytvořit**. V tomto
+případě je potřeba metadata vyplnit ručně.
 
-![](media/e_monografie/image3.png){width="6.15625in"
-height="2.6354166666666665in"}
+![](./media/e_monografie/image3.png)
 
-Při načítání z katalogu je možné najít záznam ke zpracování podle
-několika polí (SYSNO, ISBN, signatura, čárový kód, číslo ČNB, název
-aj.):
+Při načítání z katalogu lze záznam vyhledat podle několika polí (např.
+SYSNO, ISBN, signatura, čárový kód, číslo ČNB, název apod.).
 
-![](media/e_monografie/image4.png){width="6.267716535433071in"
-height="4.319444444444445in"}
+![](./media/e_monografie/image4.png)
 
-Po vybrání správného záznamu je potřeba kliknout na tlačítko Vytvořit.
-Objeví se nové „okno" -- formulář, do něhož se zkopírovala metadata ze
-záznamu z katalogu:
+Po výběru správného záznamu klikněte na **Vytvořit**. Otevře se nové
+okno s formulářem, do kterého se automaticky zkopírují metadata
+z katalogu:
 
-![](media/e_monografie/image5.png){width="6.197916666666667in"
-height="7.927083333333333in"}
+![](./media/e_monografie/image5.png)
 
-Vyplněná data ve formuláři je vhodné zkontrolovat, proto doporučujeme
-Vytvořit a přejít do objektu
-![](media/e_monografie/image6.png){width="1.6875in"
-height="0.3020833333333333in"}.
+!!! tip "Tip"
+    Doporučujeme zvolit **Vytvořit a přejít do objektu**, abyste mohli metadata ihned zkontrolovat.  
+    
+    Pokud použijete pouze **Vytvořit**, je potřeba dokument později vyhledat v úložišti (např. podle modelu a názvu nebo např. kombinací modelu a identifikátoru).
 
-Pokud kliknete pouze na Vytvořit
-![](media/e_monografie/image7.png){width="0.7291666666666666in"
-height="0.3333333333333333in"}, eMonografii budete muset najít na
-úložišti (např. podle modelu, názvu atd.).
+V případě že ProArc upozorní na nevalidní data, objekt se přesto uloží.
+Metadata můžete následně upravit v otevřeném formuláři.
 
-V případě že ProArc upozorní na nevalidní data nic se neděje, objekt se
-stejně uloží a na další obrazovce je možné formulář ještě dále
-upravovat.
+!!! info "Povinnosti vyplnění formuláře jsou následující:"
+    - **M** - mandatory (povinně plnit - element je součástí každého
+    záznamu)
+    - **MA** - mandatory if available (povinně plnit, pokud je to možné,
+    pokud lze apod.)
+    - **R** - recommended (plnění hodnot elementu je doporučeno, není ovšem
+    povinné)
+    - **RA** - recommended if available (doporučeno, pokud lze plnit)
+    - **O** - optional (plnění hodnot elementu závisí na konkrétních
+    potřebách instituce)
 
-Zda jsou vyplněná data validní indikuje ikona v pravém horním rohu
-panelu s metadatovým formulářem.
+Validitu vyplněných dat indikuje ikona v pravém horním rohu panelu.
+**Červená ikona** značí chybu ve formuláři. Pro snadnou identifikaci
+chybných polí otevřete rolovací nabídku, kde budou chybné položky
+označeny červeně:
 
-![](media/e_monografie/image8.png){width="6.267716535433071in"
-height="0.8611111111111112in"}Pokud je tato ikona červená, formulář
-obsahuje chybu. Pro snadné nalezení problematického elementu je možné si
-rozkliknout rolovací nabídku s elementy, zde bude nevalidní element
-označen červeně, např.:
+![](./media/e_monografie/image6.png)
 
-![](media/e_monografie/image9.png){width="6.267716535433071in"
-height="1.7361111111111112in"}
+Pokud je tato ikona červená, formulář obsahuje chybu. Pro snadné
+nalezení problematického elementu je možné si rozkliknout rolovací
+nabídku s elementy, zde bude nevalidní element označen červeně, např.
+zde je chybně Origin info:
 
-Poté, co zkontrolujete stažené údaje, můžete objekt uložit symbolem
-diskety ![](media/e_monografie/image10.png){width="0.3229166666666667in"
-height="0.3020833333333333in"} . Doporučujeme zkontrolovat např. Fyzický
-popis, kde se občas chybně stahuje hodnota „print" namísto správného
-„electronic" (vyberte z roletky).
+![](./media/e_monografie/image7.png)
 
-#### 3.2.1.2 Přidání plného textu (PDF)
+Po kontrole údajů dokument uložte pomocí ikony diskety.
 
-Tlačítkem ![](media/e_monografie/image11.png){width="0.3229166666666667in"
-height="0.3333333333333333in"} (Rozložení) v pravém horním rohu
-obrazovky si uživatel nastavuje panely, se kterými chce pracovat.
+!!! tip "Tip" 
+    Doporučujeme zkontrolovat např. pole Fyzický popis, které se
+    někdy chybně vyplní (stáhne) jako „print" namísto správné hodnoty
+    „electronic" (lze upravit vybráním z rozbalovací nabídky).
 
-![](media/e_monografie/image12.png){width="5.17742125984252in"
-height="2.7007983377077864in"}
+## Přidání plného textu (PDF)
 
-Kliknutím na blok v pravém kontrolním panelu můžete blok aktivovat nebo
-deaktivovat, zeleně jsou označeny bloky aktivní, červeně neaktivní. Pro
-přidání PDF je potřeba mít zobrazený panel „Media":
+Pomocí tlačítka **Rozložení** v pravém horním rohu obrazovky si můžete
+nastavit panely, se kterými chcete pracovat.
 
-![](media/e_monografie/image13.png){width="6.267716535433071in"
-height="1.8194444444444444in"}
+![](./media/e_monografie/image8.png)
 
-Doporučujeme mít aktivovaný alespoň ještě jeden blok - například s
-popisnými metadaty nebo Mods xml, abyste si byli jistí, zda PDF
-přidáváte ke správnému dokumentu.
+Bloky lze aktivovat nebo deaktivovat kliknutím na jejich názvy v pravém
+kontrolním panelu. Zeleně označené bloky jsou aktivní. Červeně označené
+bloky jsou neaktivní.
 
-![](media/e_monografie/image14.png){width="6.267716535433071in"
-height="2.75in"}
+![](./media/e_monografie/image9.png)
 
-Pro přidání PDF je třeba na panelu Media kliknout na ikonu šipky
-![](media/e_monografie/image15.png){width="0.23958333333333334in"
-height="0.3229166666666667in"} , pojmenované "Načíst nový digitální
-obsah" a vybrat PDF soubor z disku počítače. Oproti předchozím verzím, v
-novém klientovi nemusíte nic ukládat, PDF se uloží samo.
+!!! warning "Upozornění" 
+    Pro přidání PDF musí být aktivní panel **Média**.
 
-V případě, že se spletete a načtete chybný digitální dokument, lze jej
-smazat, načíst nový, případně s ním dále pracovat (např.
-přiblížit/oddálit, generovat PDF/A).
+!!! tip "Tip"
+    Doporučujeme aktivovat i některý z panelů s Popisnými
+    metadaty, příp. MODS XML, abyste si ověřili, že přidáváte PDF k
+    odpovídajícímu dokumentu.
 
-#### 3.2.1.3 Přidělení urn:nbn
+Výchozí stav bez nahraného plného textu je znázorněn na obrázku -
+prázdná obrazovka se žlutě podbarveným upozorněním „Žádný digitální
+obsah".
 
-Pro export NDK PSP balíčků a archivních balíčků je přidělení povinné,
-export ve starším formátu pro Krameria je možný bez přidělení urn:nbn.
+Pro přidání PDF je třeba na panelu Média kliknout na ikonu šipky,
+pojmenované **Načíst nový digitální obsah** a následně vybrat PDF soubor
+z disku počítače.
 
-Urn:nbn můžete dokumentu přiřadit přímo v editaci v úložišti, kde funkci
-najdete na liště pod třemi tečkami:
+![](./media/e_monografie/image10.png)
 
-![](media/e_monografie/image16.png){width="6.267716535433071in"
-height="1.2222222222222223in"}
+V nové verzi klienta není třeba PDF samostatně ukládat - dokument se
+uloží automaticky.
 
-Další možností je přidělení v základním okně úložiště-hledání, kde je
-funkce umístěná na lištách obou horizontálních podoken:
+Pokud omylem načtete nesprávný soubor, můžete ho smazat, nahradit jiným
+nebo s ním dále pracovat (např. přiblížení, generování PDF/A).
 
-![](media/e_monografie/image17.png){width="4.53125in"
-height="1.3051148293963255in"}
+## Přidělení URN:NBN
 
-Po stisknutí tlačítka se zobrazí dialogové okno, kde v roletce můžete
-vybrat registrátora. Registrátor se upřesňuje v konfiguraci ProArcu. Po
-registraci dostanete zpětnou vazbu od resolveru:
+Přidělení URN:NBN je povinné pro export dokumentů ve formátu NDK PSP a
+archivních balíčků.
 
-![](media/e_monografie/image18.png){width="6.010416666666667in"
-height="1.34375in"}
+URN:NBN lze přidělit dvěma způsoby:
 
-Urn:nbn je automaticky zapsáno do metadat mezi platné identifikátory
-dokumentu.
+1\. Přímo v editaci objektu v úložišti - funkce se nachází v nabídce
+pod ikonou se třemi tečkami:
 
-V ProArcu je ošetřena zpětná vazba v případě, že omylem zaregistrujete
-dokument opětovně.
+![](./media/e_monografie/image11.png)
 
-#### 3.2.1.4 Export dokumentu, import do Krameria a archivace
+2\. V základním okně úložiště - hledání, kde je funkce umístěná na
+lištách obou horizontálních podoken:
 
-Po přidělení urn:nbn je možné e-monografii exportovat jako NDK PSP. NDK
-PSP balíček je primárně používán k importům do digitální knihovny
-Kramerius s image serverem. NDK PSP balíčky se případně předávají do
-Národní digitální knihovny (VISK, replikace).
+![](./media/e_monografie/image12.png)
 
-NDK PSP balíček lze vyexportovat do lokálního adresáře nebo přímo do
-Krameria. O cíli exportu rozhodujete v dialogovém okně volbou z rolovací
-nabídky:
+Po kliknutí na tlačítko **URN:NBN** pro přidělení se otevře dialogové
+okno. Zde v rozbalovacím seznamu zvolte příslušného registrátora, který
+je určen v konfiguraci systému ProArc.
 
-![](media/e_monografie/image19.png){width="6.114583333333333in"
-height="2.5833333333333335in"}
+Po úspěšné registraci obdržíte zpětnou vazbu přímo od Resolveru.
 
-Archivní balíčky se vytvářejí za účelem uložení dat na úložištích mimo
-ProArc. Vyexportovat je lze obdobně jako NDK PSP balíček.
+![](./media/e_monografie/image13.png)
 
-# Funkce v úložišti
+Identifikátor URN:NBN se automaticky zapíše do metadat jako jeden z
+platných identifikátorů dokumentu.
 
-## Nastavení uživatelského profilu
+ProArc je navíc vybaven ochranou proti duplicitní registraci. V případě,
+že se pokusíte zaregistrovat dokument znovu, systém na tuto skutečnost
+upozorní a další registraci neprovede.
 
-Volba „Profil" na navigační liště slouží k odhlášení z aplikace, ke
-změně hesla a k osobnímu přizpůsobení aplikace. Toto přizpůsobení se
-týká tří oblastí.
+## Export dokumentu, import do Krameria a archivace
 
-### Preferované hodnoty 
+Jakmile má dokument přidělený identifikátor URN:NBN, je možné jej
+exportovat jako balíček ve formátu NDK PSP.
 
-Zde zadané hodnoty by měly být ty, které nejčastěji používáme při výběru
-z roletek, protože se v nich budou nabízet na prvních místech.
+Balíček NDK PSP je určen zejména pro importy do Digitální knihovny
+(systém Kramerius) využívající image server. V některých případech je
+také předáván do Národní digitální knihovny v rámci projektů VISK nebo
+pro potřeby replikace.
 
-![Obsah obrázku text, snímek obrazovky, Písmo, číslo Popis byl vytvořen
-automaticky](media/e_monografie/image20.png){width="2.2503138670166227in"
-height="4.135994094488189in"}
+Export je možný:
 
-### Rozbalení formuláře
+- do lokálního adresáře,
 
-Rozbalení formuláře je funkce, která zajistí pro zvolený model rozbalení
-části formuláře „related items" při založení objektu, i když se do ní
-nestáhly z katalogu žádné údaje (využívá se především při zpracování
-článků).
+- nebo přímo do Krameria.
 
-Obecně platí, že prázdné elementy jsou ve formulářích jednotlivých
-modelů sbalené, dají se však ručně rozbalit a vyplnit.
+Cíl exportu zvolíte v dialogovém okně výběrem z rozbalovací nabídky:
 
-### Nastavení sloupců
+![](./media/e_monografie/image14.png)
 
-Zde můžeme pro každou oblast aplikace, ve které jsou údaje uspořádány
-v tabulce, vybrat sloupce, které chceme zobrazit.
+Pokud je to v konfiguraci instance ProArcu umožněno, můžete data odeslat
+přímo do Krameria. V případě, že máte více instancí Krameria, v tomto
+dialogovém okně můžete vybrat konkrétní instanci, stejně tak zvolit
+licenci, pod jakou bude dokument zpřístupněn. Po nastavení všech
+parametrů klikněte na **Zahájit export**. Např.:
 
-V základní obrazovce ProArcu -- v úložišti/hledání -- můžeme vybrat
-požadované sloupce samostatně pro horní i dolní okno (strom):
+![](./media/e_monografie/image15.png)
 
-![Obsah obrázku text, snímek obrazovky, Písmo, číslo Popis byl vytvořen
-automaticky](media/e_monografie/image21.png){width="3.768489720034996in"
-height="5.273863735783027in"}
-
-Stejná možnost se nabízí pro obrazovku
-
-- editace v importu (tj. pro obrazovku paginace načteného dokumentu),
-
-- editace již vytvořeného objektu v úložišti,
-
-- správy procesů,
-
-- fronty načítání ve správě procesů.
-
-Toto lokální nastavení je vázané na přihlášeného uživatele a po
-odhlášení zůstávají nastavené poslední uložené volby.
+Archivní balíčky slouží pro dlouhodobé uložení dokumentů na externí
+úložiště mimo ProArc. Jejich vytvoření a export probíhá obdobně jako u
+balíčků NDK PSP - v nabídce exportu pouze zvolte jiný typ:
+**Archivace**.
