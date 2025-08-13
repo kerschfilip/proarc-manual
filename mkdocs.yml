@@ -75,6 +75,7 @@ nav:
         - Vícesvazková monografie: jak_zpracovat_dokument/vicesvazkova_monografie.md
         - Periodika: jak_zpracovat_dokument/periodika.md
         - E-monografie: jak_zpracovat_dokument/e_monografie.md
+        - Vícesvazková E-monografie: jak_zpracovat_dokument/vicesvazkova_e_monografie.md
         - Zvukové dokumenty: jak_zpracovat_dokument/zvukove_dokumenty.md
 markdown_extensions:
   - admonition

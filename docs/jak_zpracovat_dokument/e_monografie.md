@@ -4,6 +4,17 @@ status: new
 
 # NDK Svazek eMonografie
 
+**Prohlédněte si krátký videonávod nebo projděte podrobný postup zpracování níže.**
+
+!!! note "Videonávod"
+    <video controls>
+    <source src="../media/e_monografie/emonografie_hotovo_v2.mp4" type="video/mp4">
+    </video>
+
+---
+
+# Podrobný popis zpracování NDK Svazku eMonografie
+
 Digitální, nebo tzv. born-digital dokumenty (často označované jako
 „e-borny"), jsou dokumenty, které vznikly přímo v elektronické podobě.
 Tyto dokumenty už vznikly elektronicky, není potřeba je digitalizovat a
