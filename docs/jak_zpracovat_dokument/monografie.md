@@ -59,7 +59,7 @@ uložení nebude umožněno a chybná pole budou zvýrazněna červeně.
     - **M** - mandatory (povinně vyplnit - element je součástí každého záznamu)
     - **MA** - mandatory if available (povinně vyplnit, pokud je to možné, pokud lze apod.)
     - **R** - recommended (vyplnění hodnot elementu je doporučeno, není ovšem povinné)
-    - **RA** - recommended if available (doporučeno, pokud lze plnit)
+    - **RA** - recommended if available (doporučeno, pokud lze vyplnit)
     - **O** - optional (vyplnění hodnot elementu závisí na konkrétních potřebách instituce)
 
 !!! tip "Tip" 
@@ -102,7 +102,7 @@ Do adresáře určeného pro import připravte:
 
 !!! warning "Upozornění" 
   
-    Pro NDK modely není možné importovat TIFF soubory bez odpovídajících OCR a ALTO souborů.*
+    Pro NDK modely není možné importovat TIFF soubory bez odpovídajících OCR a ALTO souborů.
 
 Pro zahájení importu klikněte v levé části horní navigační lišty ProArcu na
 tlačítko **Import**. Tím přejdete do importního rozhraní.
