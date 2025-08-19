@@ -7,10 +7,8 @@ status: new
 **Prohlédněte si krátký videonávod nebo projděte podrobný postup zpracování níže.**
 
 !!! note "Videonávod"
-    
----
 
-# Podrobný popis zpracování NDK Svazku eMonografie
+---
 
 Digitální, nebo tzv. born-digital dokumenty (často označované jako
 „e-borny"), jsou dokumenty, které vznikly přímo v elektronické podobě.
@@ -23,7 +21,7 @@ dlouhodobou archivaci.
 Model **NDK Svazek eMonografie** je určen pro zpracování elektronické
 monografické publikace jako samostatného dokumentu. Na rozdíl od
 periodik nejde o opakovaně vydávaný titul, ale o uzavřený celek. Tento
-model odpovídá standardům digitalizace stanoveným Národní knihovnou ČR.
+model odpovídá [standardům digitalizace stanoveným Národní knihovnou ČR](https://standardy.ndk.cz/ndk/standardy-digitalizace/DMF_ebornmonografie_3.0_final.pdf).
 
 ## Založení objektu
 
@@ -66,20 +64,18 @@ V případě že ProArc upozorní na nevalidní data, objekt se přesto uloží.
 Metadata můžete následně upravit v otevřeném formuláři.
 
 !!! info "Povinnosti vyplnění formuláře jsou následující:"
-    - **M** - mandatory (povinně plnit - element je součástí každého
+    - **M** - mandatory (povinně vyplnit - element je součástí každého
     záznamu)
-    - **MA** - mandatory if available (povinně plnit, pokud je to možné,
+    - **MA** - mandatory if available (povinně vyplnit, pokud je to možné,
     pokud lze apod.)
-    - **R** - recommended (plnění hodnot elementu je doporučeno, není ovšem
+    - **R** - recommended (vyplnění hodnot elementu je doporučeno, není ovšem
     povinné)
-    - **RA** - recommended if available (doporučeno, pokud lze plnit)
-    - **O** - optional (plnění hodnot elementu závisí na konkrétních
+    - **RA** - recommended if available (doporučeno, pokud lze vyplnit)
+    - **O** - optional (vyplnění hodnot elementu závisí na konkrétních
     potřebách instituce)
 
 Validitu vyplněných dat indikuje ikona v pravém horním rohu panelu.
-**Červená ikona** značí chybu ve formuláři. Pro snadnou identifikaci
-chybných polí otevřete rolovací nabídku, kde budou chybné položky
-označeny červeně:
+**Červená ikona** značí chybu ve formuláři.
 
 ![](./media/e_monografie/image6.png)
 
@@ -151,7 +147,7 @@ lištách obou horizontálních podoken:
 
 ![](./media/e_monografie/image12.png)
 
-Po kliknutí na tlačítko **URN:NBN** pro přidělení se otevře dialogové
+Po kliknutí na tlačítko **URN:NBN** se otevře dialogové
 okno. Zde v rozbalovacím seznamu zvolte příslušného registrátora, který
 je určen v konfiguraci systému ProArc.
 
