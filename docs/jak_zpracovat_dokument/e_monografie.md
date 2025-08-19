@@ -7,10 +7,7 @@ status: new
 **Prohlédněte si krátký videonávod nebo projděte podrobný postup zpracování níže.**
 
 !!! note "Videonávod"
-    <video controls>
-    <source src="../media/e_monografie/emonografie_hotovo_v2.mp4" type="video/mp4">
-    </video>
-
+    
 ---
 
 # Podrobný popis zpracování NDK Svazku eMonografie
