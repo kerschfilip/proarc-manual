@@ -11,8 +11,8 @@ jednotlivých svazků (dílů).
 Aby bylo možné titul zpracovat jako vícedílnou monografii podle
 standardů NDK, musí katalogizační záznam obsahovat přesně definovanou
 kombinaci hodnot v polích MARC21. Pouhá přítomnost číslování v poli 245
-nestačí - rozhodující jsou hodnoty v poli LDR: LDR/07 =   "m  " (označuje
-monografii), LDR/19 =   "a  " (označuje vícedílný dokument).
+nestačí - rozhodující jsou hodnoty v poli LDR: LDR/07 =   "m" (označuje
+monografii), LDR/19 =   "a" (označuje vícedílný dokument).
 
 ## Vytvoření digitálního dokumentu (objektu)
 
@@ -344,13 +344,13 @@ knihovně (DK) nebo pro archivaci, je nutné mu přidělit URN:NBN.
 
 URN:NBN můžete přidělit dvěma způsoby:
 
-1. V editačním režimu objektu - **f**unkci najdete v pravém horním
+  - 1) V editačním režimu objektu - funkci najdete v pravém horním
 rohu pod ikonou **tří teček.** Po kliknutí se zobrazí nabídka, kde
 zvolíte přidělit **URN:NBN.**
 
 ![](./media/vicesvazkova_monografie/image36.png)
 
-2. V základním okně úložiště - funkce je dostupná na horní liště obou
+  - 2) V základním okně úložiště - funkce je dostupná na horní liště obou
 horizontálních podoken.
 
 ![](./media/vicesvazkova_monografie/image37.png)
