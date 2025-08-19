@@ -56,11 +56,11 @@ uložení nebude umožněno a chybná pole budou zvýrazněna červeně.
 ![](./media/monografie/image5.png)
 
 !!! info "Ostatní povinnosti vyplnění formuláře jsou následující:" 
-    - **M** - mandatory (povinně plnit - element je součástí každého záznamu)
-    - **MA** - mandatory if available (povinně plnit, pokud je to možné, pokud lze apod.)
-    - **R** - recommended (plnění hodnot elementu je doporučeno, není ovšem povinné)
+    - **M** - mandatory (povinně vyplnit - element je součástí každého záznamu)
+    - **MA** - mandatory if available (povinně vyplnit, pokud je to možné, pokud lze apod.)
+    - **R** - recommended (vyplnění hodnot elementu je doporučeno, není ovšem povinné)
     - **RA** - recommended if available (doporučeno, pokud lze plnit)
-    - **O** - optional (plnění hodnot elementu závisí na konkrétních potřebách instituce)
+    - **O** - optional (vyplnění hodnot elementu závisí na konkrétních potřebách instituce)
 
 !!! tip "Tip" 
   
@@ -104,7 +104,7 @@ Do adresáře určeného pro import připravte:
   
     Pro NDK modely není možné importovat TIFF soubory bez odpovídajících OCR a ALTO souborů.*
 
-Pro zahájení importu klikněte v levé části navigační lišty ProArcu na
+Pro zahájení importu klikněte v levé části horní navigační lišty ProArcu na
 tlačítko **Import**. Tím přejdete do importního rozhraní.
 
 ![](./media/monografie/image9.png)
@@ -119,7 +119,7 @@ dokumenty v NDK modelech použijte profil **Default**.
 vyšší prioritu, bude se dávka ve frontě zpracovávat dříve než ostatní.
 Jinak se zařadí na konec fronty.
 
-V poli „**Zařízení**" vyberte přístroj, na kterém byla data připravena
+V poli **Zařízení** vyberte přístroj, na kterém byla data připravena
 (typicky je jím **skener**). Výběr zařízení je pro většinu modelů
 povinný. Tlačítko **Načíst** se aktivuje až po jeho zvolení.
 
@@ -147,14 +147,12 @@ frontu načítání**.
 
 ![](./media/monografie/image12.png)
 
-V tabulkovém zobrazení uvidíte průběh importu jednotlivých dávek.\
-Aktuální stav lze ručně aktualizovat pomocí tlačítka **Obnovit**.
+V tabulkovém zobrazení uvidíte průběh importu jednotlivých dávek. Aktuální stav lze ručně aktualizovat pomocí tlačítka **Obnovit**.
 
 ![](./media/monografie/image13.png)
 
 Jakmile je načítání dokončeno, daný proces zmizí z aktuálního
-zobrazení.\
-Je proto nutné kliknout na možnost **Zpět na seznam všech procesů**.
+zobrazení. Je proto nutné kliknout na možnost **Zpět na seznam všech procesů**.
 
 V přehledu procesů označte dokončenou dávku, čímž se v horní liště
 zpřístupní tlačítka:
@@ -175,8 +173,7 @@ rozložení zobrazení ![](./media/monografie/image15.png).
 ![](./media/monografie/image16.png)
 
 Každé podokno v rozhraní **Správa dávek - editace** má v horní liště
-vlastní sadu funkcí.\
-Při najetí myší na jednotlivé ikony se zobrazí jejich popis.
+vlastní sadu funkcí. Při najetí myší na jednotlivé ikony se zobrazí jejich popis.
 
 Rozložení zobrazení a výběr viditelných sloupců můžete upravit v okně
 **Profil**.
