@@ -13,11 +13,11 @@ eMonografií je tento typ zpracováván ve dvou úrovních:
 Tento model odpovídá standardům digitalizace stanoveným Národní
 knihovnou ČR a vyžaduje specifické nastavení v katalogu, aby bylo možné
 vícesvazkové záznamy správně rozpoznat a zpracovat. Uvedení údajů o
-svazcích v poli **MARC 245 \$n** nebo **\$p** nestačí - tyto hodnoty
+svazcích v poli **MARC 245 $n** nebo **$p** nestačí - tyto hodnoty
 slouží jako doplňující informace, nikoli jako určující kritérium pro
 vytvoření vícesvazkového modelu. Podmínkou vytvoření víceúrovňového
-popisu monografie je kombinace hodnot **\"m\"** (monografie) v poli
-**LDR/07** a hodnota **\"a\"** (vícedílný dokument) v **LDR/19**.
+popisu monografie je kombinace hodnot **"m"** (monografie) v poli
+**LDR/07** a hodnota **"a"** (vícedílný dokument) v **LDR/19**.
 
 ## Založení objektu
 
@@ -49,7 +49,7 @@ případě je potřeba metadata vyplnit ručně.
     Pokud je to možné, doporučujeme využít **Načtení metadat z katalogu**, které celý proces urychlí a zpřesní.
 
 V následujícím kroku vyberte katalog, ze kterého chcete záznam
-stáhnout.\
+stáhnout.  
 Zadejte kritérium vyhledávání (např. SYSNO, ISBN, signatura, čárový kód,
 číslo ČNB, název apod.) a zadejte požadovanou hodnotu (např. konkrétní
 ISBN). Potvrďte tlačítkem **Vyhledat**.
@@ -66,7 +66,7 @@ pokud použijete příliš obecné vyhledávací kritérium (v tomto případě
 název).
 
 !!! warning "Upozornění" 
-    Nejednoznačný vyhledávací dotaz může výrazně ztížit nalezení správného záznamu.*
+    Nejednoznačný vyhledávací dotaz může výrazně ztížit nalezení správného záznamu.
 
 ![Obsah obrázku text, snímek obrazovky, číslo, software Obsah generovaný
 pomocí AI může být
@@ -135,12 +135,13 @@ Po přidání prvního dílu klikněte na ikonu **Plus (+)**:
 
 ![Obsah obrázku text, Písmo, řada/pruh, číslo Obsah generovaný pomocí AI
 může být
-nesprávný.](./media/vicesvazkova_e_monografie/image9.png)
+nesprávný.](./media/vicesvazkova_e_monografie/image9.png)  
+
 Otevře se dialogové okno známé ze zakládání jiných modelů a objektů.
 Výběr modelu je přednastaven na NDK Svazek eMonografie.
 
 !!! tip "Tip" 
-  Doporučujeme využít možnost **Načíst metadata z katalogu**, kterou najdete v levém dolním rohu dialogového okna.*
+    Doporučujeme využít možnost **Načíst metadata z katalogu**, kterou najdete v levém dolním rohu dialogového okna.
 
 ![Obsah obrázku text, snímek obrazovky, Písmo, číslo Obsah generovaný
 pomocí AI může být
