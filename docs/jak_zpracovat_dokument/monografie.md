@@ -283,14 +283,9 @@ Není však nutné mít v rozhraní dostupné všechny formáty.
 Funkce **Export** je dostupná v editoru objektu v úložišti pod ikonou
 tří teček, a také v základním okně úložiště.
 
-### NDK PSP balíček
+K importům do digitální knihovny Kramerius (s využitím image serveru), předávání dat do Národní digitální knihovny (např. v rámci projektu VISK), případně k replikaci dat mezi knihovnami slouží primárně NDK PSP balíček.
 
-NDK PSP balíček slouží primárně k importům do digitální knihovny
-Kramerius (s využitím image serveru), předávání dat do Národní digitální
-knihovny (např. v rámci projektu VISK), případně k replikaci dat mezi
-knihovnami.
-
-Export NDK PSP balíčku lze provést do lokálního exportního adresáře,
+Export NDK PSP lze provést do lokálního exportního adresáře,
 nebo přímo do napojené instance Krameria, pokud je tato možnost
 nakonfigurována.
 

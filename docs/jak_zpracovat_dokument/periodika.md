@@ -1,6 +1,6 @@
-﻿---
+﻿--
 status: new
----
+--
 
 # NDK Periodikum 
 
@@ -12,9 +12,9 @@ plánováno jako dlouhodobé nebo neukončené. Typickými příklady periodik
 jsou noviny, časopisy nebo periodické sborníky.
 
 V katalogových záznamech jsou periodika rozpoznatelná podle hodnoty
-**\"s\"** v poli **LDR/07**, která označuje **seriál** (dokument
-vydávaný průběžně).\
-Tato hodnota odlišuje periodika od monografií (LDR/07 = \"m\") a je
+**"s"** v poli **LDR/07**, která označuje **seriál** (dokument
+vydávaný průběžně).  
+Tato hodnota odlišuje periodika od monografií (LDR/07 = "m") a je
 rozhodující pro výběr odpovídajícího modelu v rámci zpracování v
 ProArcu.
 
@@ -34,8 +34,6 @@ Než začnete s vytvářením nového objektu periodika, doporučujeme nejprve
 ověřit, zda už periodikum v systému neexistuje. Klikněte na **Hledat** v
 horní liště (Import, Správa procesů, Hledat, Nový objekt).
 
-![](./media/periodika/image1.png)
-
 Pomocí **Pokročilého vyhledávání** můžete najít titul podle modelu (NDK
 Periodikum), názvu, identifikátoru (např. UUID, ISSN a dalších).
 Jestliže požadovaný titul nenajdete, pokračujte jeho založením.
@@ -44,18 +42,21 @@ Jestliže požadovaný titul nenajdete, pokračujte jeho založením.
 
 Pokud zakládáte úplně nové periodikum (v ProArcu ještě nikdy nebylo
 založeno), založení je následující. Jako první krok v navigační liště
-úložiště klikněte na možnost **Nový objekt**. Zobrazí se dialogové okno,
-které slouží pro založení všech typů dokumentů (modelů). Z roletky
+úložiště klikněte na možnost **Nový objekt**. 
+
+![](./media/periodika/image1.png)
+
+Zobrazí se dialogové okno, které slouží pro založení všech typů dokumentů (modelů). Z roletky
 vyberte model **NDK Periodikum**.
 
 ![](./media/periodika/image3.png)
 
 Objekt lze založit dvěma způsoby:
 
-- **Vytvořit** -- otevře se prázdný formulář a metadata se vyplňují
+- **Vytvořit** - otevře se prázdný formulář a metadata se vyplňují
   ručně (nedoporučujeme).
 
-- **Načíst metadata z katalogu** -- doporučený postup. Po kliknutí na
+- **Načíst metadata z katalogu** - doporučený postup. Po kliknutí na
   toto tlačítko se otevře další dialog, kde zvolíte katalog, typ
   hledaného údaje (např. název, ISSN, čárový kód) a konkrétní dotaz.
 
@@ -66,7 +67,7 @@ Objekt lze založit dvěma způsoby:
 
 Kliknutím na **Vyhledat** se zobrazí výsledky. Vlevo se zobrazí seznam
 nalezených titulů (názvy periodik). Vpravo se zobrazí doplňující
-informace -- katalogový záznam ve formátu MARC21. Řádek, který je
+informace - katalogový záznam ve formátu MARC21. Řádek, který je
 zašedlý (vlevo, v seznamu periodik), označuje záznam, který bude po
 potvrzení stažený do formuláře. Záznam vyberete kliknutím na
 **Vytvořit**, čímž se metadata přenesou do formuláře a připraví k
@@ -76,7 +77,7 @@ editaci.
 
 Systém ProArc kontroluje povinná pole. Pokud není některé pole označené
 jako **M (Mandatory)** vyplněno, zobrazí se červeně. Při zakládání
-titulové úrovně jde nejčastěji o chybějící signaturu -- **Uložení**.
+titulové úrovně jde nejčastěji o chybějící signaturu - **Uložení**.
 
 ![](./media/periodika/image6.png)
 
@@ -132,7 +133,7 @@ ročníky a čísla propojí s existujícím periodikem v DK (Kramerius).
 ![](./media/periodika/image11.png)
 
 Dále pokračujete stejným způsobem jako u nového objektu založeného bez
-existujícího UUID (PID) -- načtením metadat z katalogu a úpravou
+existujícího UUID (PID) - načtením metadat z katalogu a úpravou
 formuláře, stažením a případnou ruční úpravou (např. doplnění
 signatury).
 
@@ -157,7 +158,7 @@ vydání (originInfo/dateIssued). Ostatní metadata (např. žánr s hodnotou
 volume nebo UUID) se vyplní automaticky.
 
 Další ročník přidáte opět ikonou **Plus**. Místo zakládání lze zvolit
-dvojí -- buďto **Na konec** nebo **Za vybraný**. Vybraný je ten ročník,
+dvojí - buďto **Na konec** nebo **Za vybraný**. Vybraný je ten ročník,
 který je podbarvený:
 
 ![](./media/periodika/image14.png)
@@ -165,13 +166,13 @@ který je podbarvený:
 Pokud ročník založíte na nesprávném místě, lze ho přesunout, máte dvě
 možnosti:
 
-- **Přetažením myší** -- přetáhněte objekt na požadovanou pozici. Po
-  přesunutí obrazovka zešedne -- pro její opětovné zaktivnění klikněte
+- **Přetažením myší** - přetáhněte objekt na požadovanou pozici. Po
+  přesunutí obrazovka zešedne - pro její opětovné zaktivnění klikněte
   na ikonu **diskety (Uložit)**.
 
 ![](./media/periodika/image15.png)
 
-- Nebo s využitím funkce **Změna pozice** -- najdete ji v nabídce pod
+- Nebo s využitím funkce **Změna pozice** - najdete ji v nabídce pod
   třemi tečkami.
 
 ![](./media/periodika/image16.png)
@@ -190,16 +191,16 @@ pokračovat v práci.
 
 ![](./media/periodika/image18.png)
 
-#### NDK Číslo
+### NDK Číslo
 
-Číslo se zakládá stejným způsobem jako ročník -- kliknutím na ikonu
+Číslo se zakládá stejným způsobem jako ročník - kliknutím na ikonu
 **Plus**. Je však důležité, aby bylo založeno **uvnitř správného
 ročníku**.
 
 K orientaci v hierarchii slouží: drobečková navigace a zobrazení
 Stromu/Tabulky.
 
-**Drobečková navigace** -- ukazuje, kde se právě nacházíte, a umožňuje
+**Drobečková navigace** - ukazuje, kde se právě nacházíte, a umožňuje
 snadné přepínání/proklik mezi jednotlivými úrovněmi (např. periodikum →
 ročník → číslo).
 
@@ -259,10 +260,10 @@ Ikona ![](./media/periodika/image23.png) slouží k opětovnému načtení
 dávky. Při novém načtení ProArc automaticky smaže pomocné soubory, které
 při předchozím importu vytvořil.
 
-Lze také vybrat více dávek najednou -- dávky se zařadí do fronty a
+Lze také vybrat více dávek najednou - dávky se zařadí do fronty a
 zpracují se postupně. Po spuštění načítání se v případě jedné dávky
 zobrazí dialogové okno s průběhem importu. Toto okno můžete **Zavřít**
--- načítání bude i nadále probíhat na pozadí.
+- načítání bude i nadále probíhat na pozadí.
 
 ![](./media/periodika/image24.png)
 
@@ -273,41 +274,38 @@ frontu načítání**.
 
 ![](./media/periodika/image25.png)
 
-V tabulkovém zobrazení uvidíte průběh importu jednotlivých dávek.\
+V tabulkovém zobrazení uvidíte průběh importu jednotlivých dávek.  
 Aktuální stav lze ručně aktualizovat pomocí tlačítka **Obnovit**.
 
 ![](./media/periodika/image26.png)
 
 Jakmile je načítání dokončeno, daný proces zmizí z aktuálního
-zobrazení.\
+zobrazení.  
 Je proto nutné kliknout na možnost **Zpět na seznam všech procesů**.
 
 V přehledu procesů označte dokončenou dávku, čímž se v horní liště
 zpřístupní tlačítka:
 
-- **Načíst znovu** -- pro opětovný import dávky,
+- **Načíst znovu** - pro opětovný import dávky,
 
-- **Pokračovat** -- pro zahájení dalšího zpracování.
+- **Pokračovat** - pro zahájení dalšího zpracování.
 
 ![](./media/periodika/image27.png)
 
 ## Popis obrazových dat (paginace)
 
 Po kliknutí na tlačítko **Pokračovat** se načtená dávka otevře v okně
-**Správa dávek -- editace**.
+**Správa dávek - editace**.
 
 Rozhraní je rozděleno na více podoken, která si můžete libovolně
-uspořádat podle svých potřeb pomocí ikony pro změnu **rozložení
-zobrazení** ![](./media/periodika/image28.png) (vpravo nahoře).
-Rozložení zobrazíte a upravíte přes nabídku **Rozložení** v pravém
-horním rohu.
+uspořádat podle svých potřeb pomocí ikony pro změnu **rozložení zobrazení** ![](./media/periodika/image28.png) (vpravo nahoře).
 
 Každé podokno má v horní liště vlastní **sadu funkcí**. Při najetí myší
 na jednotlivé ikony se zobrazí jejich popis. **Výběr sloupců** lze
 přizpůsobit v horní liště pod ikonou **tří teček (Více)**, případně v
 nastavení v sekci **Profil**.
 
-Rozložení je individuální -- každému může vyhovovat něco jiného.\
+Rozložení je individuální - každému může vyhovovat něco jiného.  
 
 !!! tip "Tip"
     Doporučujeme minimálně zobrazit následující podokna: **Náhledy, Tabulka** nebo **Strom, Popisná metadata** a **Obrázek.**
@@ -347,12 +345,12 @@ titulu, k němuž patří právě popsané a importované strany.
 Zobrazení v editoru je stejné, jako v případě nově založeného objektu.
 Navíc zde vidíme i seznam přiřazených stran a jejich náhledy. Metadata
 lze upravovat jak pro jednotlivé strany, tak i na úrovni titulu, ročníku
-a čísla -- a to jak pomocí formuláře, tak přímo v XML zobrazení.
+a čísla - a to jak pomocí formuláře, tak přímo v XML zobrazení.
 
 !!! warning "Upozornění"
-    Změníte-li údaje u titulové úrovně periodika po vytvoření ročníků a čísel, metadata se nepropíšou do již hotových objektů (ročníků, čísel).*
+    Změníte-li údaje u titulové úrovně periodika po vytvoření ročníků a čísel, metadata se nepropíšou do již hotových objektů (ročníků, čísel).
 
-Při každé provedené změně se aktivuje jinak zašedlá ikona diskety --
+Při každé provedené změně se aktivuje jinak zašedlá ikona diskety -
 změnu je nutné **Uložit** (symbol **diskety**).
 
 Každé podokno má na horní liště vlastní sadu funkcí. Po najetí kurzorem
@@ -363,7 +361,7 @@ pod ikonou **tří teček**.
 
 Podokno se zobrazenými stranami (ve formě tabulky nebo náhledů) umožňuje
 jednotlivé strany nebo **více vybraných stran** přesouvat na nové pozice
-v rámci dokumentu -- buď přetažením myší, nebo přes funkcionalitu
+v rámci dokumentu - buď přetažením myší, nebo přes funkcionalitu
 **Změnit pozici**.
 
 Nacházíte-li se v úrovni podřízených objektů (např. strany), můžete se
@@ -403,15 +401,15 @@ Poté:
 7.  Podbarvené skeny zkontrolujte (podbarvené se budou přesunovat).
 
 8.  Klikněte na **Přesunout**. V pravé horní části okna označte
-    požadovaný cílový objekt (klikněte na název periodika -- podbarví
-    se, ročník -- rozbalí se, a vyberte cílové číslo -- zvýrazní se
+    požadovaný cílový objekt (klikněte na název periodika - podbarví
+    se, ročník - rozbalí se, a vyberte cílové číslo - zvýrazní se
     podbarvením). Nad tlačítkem **Přesunout** se zobrazuje informace o
     cílovém objektu (Přesunout objekty do).
 
 ![](./media/periodika/image34.png)
 
 Po kliknutí na **Přesunout** se zobrazí potvrzovací dialog „Přesun
-objektů -- Opravdu chcete přesunout vybrané objekty do nově zvoleného
+objektů - Opravdu chcete přesunout vybrané objekty do nově zvoleného
 objektu?" Potvrďte kliknutím na **Ano**.
 
 ![](./media/periodika/image35.png)
@@ -432,7 +430,7 @@ liště:
 ![](./media/periodika/image37.png)
 
 Po kliknutí na tlačítko se zobrazí dialog, ve kterém stačí potvrdit akci
-kliknutím na **Ano** -- tím potvrdíte, že chcete reindexovat všechny
+kliknutím na **Ano** - tím potvrdíte, že chcete reindexovat všechny
 strany daného čísla.
 
 ![](./media/periodika/image38.png)
@@ -466,7 +464,7 @@ identifikátor je automaticky zapsáno do metadat jako platný.
 ## Export dokumentu
 
 ProArc podporuje řadu exportních formátů a umožňuje i napojení na
-externí systémy -- např. digitální knihovny nebo repozitáře.
+externí systémy - např. digitální knihovny nebo repozitáře.
 
 Není však nutné mít v rozhraní dostupné všechny formáty.
 
@@ -476,14 +474,9 @@ Není však nutné mít v rozhraní dostupné všechny formáty.
 Funkce **Export** je dostupná v editoru objektu v úložišti pod ikonou
 tří teček, a také v základním okně úložiště.
 
-### NDK PSP balíček
+K importům do digitální knihovny Kramerius (s využitím image serveru), předávání dat do Národní digitální knihovny (např. v rámci projektu VISK), případně k replikaci dat mezi knihovnami slouží primárně NDK PSP balíček.
 
-NDK PSP balíček slouží primárně k importům do digitální knihovny
-Kramerius (s využitím image serveru), předávání dat do Národní digitální
-knihovny (např. v rámci projektu VISK), případně k replikaci dat mezi
-knihovnami.
-
-Export NDK PSP balíčku lze provést do lokálního exportního adresáře,
+Export NDK PSP lze provést do lokálního exportního adresáře,
 nebo přímo do napojené instance Krameria, pokud je tato možnost
 nakonfigurována.
 
