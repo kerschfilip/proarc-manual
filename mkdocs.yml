@@ -51,23 +51,14 @@ nav:
       - Kontakt: kontakt.md
       - Chybí něco v návodu?: chybi_neco_v_navodu.md
   - Základní přehled:
-      - Základní přehled: zakladni_prehled/zakladni_prehled.md
-      - Přihlášení a základní navigace: zakladni_prehled/prihlaseni_a_zakladni_navigace.md
-      - Vzhled uživatelského rozhraní: zakladni_prehled/vzhled_uzivatelskeho_rozhrani.md
-      - Ikony a jejich význam: zakladni_prehled/ikony_a_jejich_vyznam.md
-      - Hlavní nabídky a kde co najít: zakladni_prehled/hlavni_nabidky_a_kde_co_najit.md
-      - Obrazovka Vyhledávání: zakladni_prehled/obrazovka_vyhledavani.md
-      - Obrazovka Editace: zakladni_prehled/obrazovka_editace.md
-      - Obrazovka Import: zakladni_prehled/obrazovka_import.md
-  - Obecné postupy:
-      - Obecný postup zpracování dokumentů: obecne_postupy/jak_zpracovat_dokument.md
-      - Založení objektu: obecne_postupy/zalozeni_objektu.md
-      - Import dat: obecne_postupy/import_dat.md
-      - Popis dokumentu: obecne_postupy/popis_dokumentu.md
-      - Editace dokumentu: obecne_postupy/editace_dokumentu.md
-      - Identifikátory: obecne_postupy/identifikatory.md
-      - Validace: obecne_postupy/validace.md
-      - Export: obecne_postupy/export.md
+      - Přihlášení a navigace: zakladni_prehled/01_prihlaseni.md
+      - Obrazovka úložiště: zakladni_prehled/02_uloziste.md
+      - Import a Správa procesů: zakladni_prehled/03_import.md
+      - Zařízení: zakladni_prehled/04_zarizeni.md
+      - Administrace: zakladni_prehled/05_administrace.md
+      - O aplikaci: zakladni_prehled/06_oAplikaci.md
+      - Profil: zakladni_prehled/07_profil.md
+      - Nastavení jazyka: zakladni_prehled/08_jazyk.md
   - Typy dokumentů: 
       - Přehled dokumentů: jak_zpracovat_dokument/typy_dokumentu.md
       - Postup zpracování konkrétních typů dokumentů:

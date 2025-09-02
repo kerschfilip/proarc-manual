@@ -1,1 +1,0 @@
-﻿# Obrazovka Vyhledávání
