@@ -7,9 +7,16 @@ status: new
 **Prohlédněte si krátký videonávod nebo projděte podrobný postup zpracování níže.**
 
 !!! note "Videonávod"
-    <video width="640"  controls>
-    <source src="../media/e_monografie/emonografie_v2.mp4" type="video/mp4">
-</video>
+    <iframe 
+    width="640" 
+    height="360" 
+    src="https://drive.google.com/file/d/15hB6KVo-j1OHi0GwyJw8KjegKxinDW0p/preview" 
+    allow="autoplay; encrypted-media" 
+    frameborder="0" 
+    allowfullscreen>
+    </iframe>
+
+    [:fontawesome-solid-download: Stáhnout video ](../jak_zpracovat_dokument/media/e_monografie/emonografie_v2.mp4)
 
 ---
 
