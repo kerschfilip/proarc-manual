@@ -5,22 +5,14 @@ spouštět v libovolném internetovém prohlížeči. Systém je však
 optimalizován pro Google Chrome a Firefox.
 
 Administrátor vám vytvoří uživatelský účet, přidělí iniciální heslo a
-sdělí webovou adresu aplikace.
+sdělí webovou adresu aplikace, na které se můžete snadno přihlásit:
 
-![Obsah obrázku text, snímek obrazovky, Písmo, číslo Obsah generovaný
-pomocí AI může být
-nesprávný.](./media/01_prihlaseni/image1.png)
+![](./media/01_prihlaseni/image1.png)
 
-Horní navigační lišta je dostupná ve všech částech aplikace.
-
-![](./media/01_prihlaseni/image2.png)
-
-Navigace je rozdělena na:
+**Horní navigační lišta je dostupná ve všech částech aplikace a je rozdělena na**:
 
 **1\. zpracovatelské funkce** - import, správa procesů, hledání, zakládání
 nových objektů
-
-![](./media/01_prihlaseni/image2.png)
 
 **2\. informační a uživatelské funkce** - profil (nastavení), zařízení,
 informace o verzi a jazykové nastavení.
