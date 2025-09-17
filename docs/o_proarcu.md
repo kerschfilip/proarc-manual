@@ -11,7 +11,7 @@ Systém je volně dostupný pod licencí [GNU GPLv3](https://github.com/proarc/p
 
 **Poslední stabilní verze**
 
-* [Jádro 4.2.9](https://github.com/proarc/proarc/releases/tag/v4.2.9),
+* [Jádro 4.2.10](https://github.com/proarc/proarc/releases/tag/v4.2.10),
 * [Klient 2.3.5](https://github.com/proarc/proarc-client/releases/tag/v2.3.5).
 
 ## Podporované typy dokumentů
@@ -47,7 +47,7 @@ Systém v současnosti podporuje popis a zpracování:
   * Fedora Commons repository >> Akubra
   * Java
   * PostgreSQL
-  * Kakadu - použití pro vytvoření JPG2000. Pro získání instalace určené pro využití v ProArcu pro nekomerční účely je možné kontaktovat Národní knihovnu ČR [Ing. Petr Kukač, petr.kukac@nkp.cz](mailto:petr.kukac@nkp.cz)
+  * Kakadu - použití pro vytvoření JPG2000. Pro získání instalace určené pro využití v ProArcu pro nekomerční účely je možné kontaktovat Národní knihovnu ČR.
 
 Systémy, které navazují nebo poskytují dostupnou funkcionalitu
  - Systém Kramerius [https://github.com/ceskaexpedice/kramerius](https://github.com/ceskaexpedice/kramerius)

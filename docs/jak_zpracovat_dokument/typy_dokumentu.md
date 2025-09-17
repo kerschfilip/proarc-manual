@@ -8,7 +8,6 @@ Postupy jsou připraveny pro:
 - [Vícesvazková monografie](./vicesvazkova_monografie.md)
 - [Periodika](./periodika.md)
 - [E-monografie](./e_monografie.md)
-- [Zvukové dokumenty](./zvukove_dokumenty.md)
 
 !!! question "Chybí vám něco v návodu?"
     Pokud něčemu nerozumíte, nebo byste rádi navrhli doplnění či úpravu návodu, dejte nám vědět.  
