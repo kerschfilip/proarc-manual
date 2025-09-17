@@ -6,7 +6,7 @@
     <iframe 
     width="640" 
     height="360" 
-    src="https://drive.google.com/file/d/17O6lI3ZTrL0qv0eJlxO82miDPiduooAc//preview"
+    src="https://drive.google.com/file/d/17O6lI3ZTrL0qv0eJlxO82miDPiduooAc/preview"
     allow="autoplay; encrypted-media" 
     frameborder="0" 
     allowfullscreen>
