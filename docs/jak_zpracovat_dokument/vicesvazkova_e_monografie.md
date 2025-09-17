@@ -1,7 +1,3 @@
----
-status: new
----
-
 Model **NDK Vícedílná eMonografie** slouží ke zpracování elektronických
 publikací, které vyšly ve více svazcích. Na rozdíl od jednosvazkových
 eMonografií je tento typ zpracováván ve dvou úrovních:
@@ -13,11 +9,11 @@ eMonografií je tento typ zpracováván ve dvou úrovních:
 Tento model odpovídá standardům digitalizace stanoveným Národní
 knihovnou ČR a vyžaduje specifické nastavení v katalogu, aby bylo možné
 vícesvazkové záznamy správně rozpoznat a zpracovat. Uvedení údajů o
-svazcích v poli **MARC 245 $n** nebo **$p** nestačí - tyto hodnoty
+svazcích v poli MARC `245 $n` nebo `$p` nestačí - tyto hodnoty
 slouží jako doplňující informace, nikoli jako určující kritérium pro
 vytvoření vícesvazkového modelu. Podmínkou vytvoření víceúrovňového
-popisu monografie je kombinace hodnot **"m"** (monografie) v poli
-**LDR/07** a hodnota **"a"** (vícedílný dokument) v **LDR/19**.
+popisu monografie je kombinace hodnot `"m"` (monografie) v poli
+`LDR/07` a hodnota *`"a"`* (vícedílný dokument) v `LDR/19`.
 
 ## Založení objektu
 
@@ -39,7 +35,7 @@ eMonografie**.
 
 ![Obsah obrázku text, Písmo, řada/pruh, číslo Obsah generovaný pomocí AI
 může být
-nesprávný.](./media/vicesvazkova_e_monografie/image2.png)
+nesprávný.](./media/vicesvazkova_e_monografie/image2.png){width=600}
 
 Nový objekt můžete vytvořit buďto **Načtením metadat z** **katalogu**,
 nebo založením prázdného objektu pomocí tlačítka **Vytvořit**. Ve druhém
@@ -208,7 +204,7 @@ pozice.
 
 ![Obsah obrázku text, snímek obrazovky, Písmo, číslo Obsah generovaný
 pomocí AI může být
-nesprávný.](./media/vicesvazkova_e_monografie/image15.png)
+nesprávný.](./media/vicesvazkova_e_monografie/image15.png){width=500}
 
 - Funkce **Změna pozice** - najdete ji v nabídce pod třemi tečkami.
 
@@ -223,7 +219,7 @@ založené 3 díly vícedílky) a potvrdit kliknutím na **Přesunout**.
 
 ![Obsah obrázku text, snímek obrazovky, Písmo, řada/pruh Obsah
 generovaný pomocí AI může být
-nesprávný.](./media/vicesvazkova_e_monografie/image17.png)
+nesprávný.](./media/vicesvazkova_e_monografie/image17.png){width=500}
 
 Svazek se přesune na vybrané místo a obrazovka zašedne, je potřeba ještě
 změnu uložit ikonou **diskety**. Obnovit zobrazení lze ikonou
@@ -288,7 +284,7 @@ lištách obou horizontálních podoken:
 
 ![Obsah obrázku text, snímek obrazovky, Písmo, číslo Obsah generovaný
 pomocí AI může být
-nesprávný.](./media/vicesvazkova_e_monografie/image22.png)
+nesprávný.](./media/vicesvazkova_e_monografie/image22.png){width=500}
 
 Po kliknutí na tlačítko **URN:NBN** pro přidělení se otevře dialogové
 okno. Zde v rozbalovacím seznamu zvolte příslušného registrátora, který
@@ -337,4 +333,4 @@ parametrů klikněte na **Zahájit export**. Např.:
 
 ![Obsah obrázku text, snímek obrazovky, řada/pruh, číslo Obsah
 generovaný pomocí AI může být
-nesprávný.](./media/vicesvazkova_e_monografie/image25.png)
+nesprávný.](./media/vicesvazkova_e_monografie/image25.png){width=500}

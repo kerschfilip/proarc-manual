@@ -17,7 +17,7 @@ V lokálním nastavení můžete nastavit **preferované typy stran**,
 **jazyk** a **identifikátory**, které se poté zobrazují na začátku
 výběrových seznamů ve formulářích.
 
-![](./media/07_profil/image4.png)
+![](./media/07_profil/image4.png){width=350 .center .bordered}
 
 
 
@@ -30,12 +30,12 @@ horní části seznamu, ještě nad abecedním pořadí:
 
 ![Obsah obrázku text, snímek obrazovky, Písmo, dokument Obsah generovaný
 pomocí AI může být
-nesprávný.](./media/07_profil/image5.png)
+nesprávný.](./media/07_profil/image5.png){width=300 .center .bordered}
 
 V seznamu hodnot ve formuláři NDK strany pak je k dispozici stejně
 uspořádaný seznam:
 
-![](./media/07_profil/image6.png)
+![](./media/07_profil/image6.png){width=250 .center .bordered}
 
 ### Rozbalení formuláře
 
@@ -57,7 +57,7 @@ V nastavení označíme, že chceme formulář při založení objektu NDK svaz
 monografie plně rozbalený. Po uložení se tento model přesune na začátek
 seznamu dostupných modelů:
 
-![](./media/07_profil/image8.png)
+![](./media/07_profil/image8.png){width=250 .center .bordered}
 
 Pole pro autora se pak rozbalí již při založení nového objektu, i když
 je prázdné:
@@ -90,12 +90,12 @@ dokumentů nebo při nižším výkonu systému.
 
 ![Obsah obrázku text, snímek obrazovky, Písmo, číslo Obsah generovaný
 pomocí AI může být
-nesprávný.](./media/07_profil/image12.png)
+nesprávný.](./media/07_profil/image12.png){width=400}
 
 Ve výchozím stavu je toto rozbalování aktivní, v úložišti je pak
 zobrazena i nejnižší úroveň struktury včetně stran.
 
-![](./media/07_profil/image13.png)
+![](./media/07_profil/image13.png){width=400}
 
 ### Výběr sloupců
 
@@ -137,7 +137,6 @@ je dostupná na liště pod ikonou **tří teček**.
 Dolní okno úložiště:
 
 ![](./media/07_profil/image17.png)
-
 Editace v úložišti:
 
 ![](./media/07_profil/image18.png)
@@ -156,6 +155,4 @@ Tlačítko **Uložit** se aktivuje pouze po změně některého z údajů.
 Uživatelé s rolí user mohou změnit heslo pouze zde (nikoli v
 Administraci, která pro ně není přístupná).
 
-![Obsah obrázku text, snímek obrazovky, číslo, řada/pruh Obsah
-generovaný pomocí AI může být
-nesprávný.](./media/07_profil/image20.png)
+![](./media/07_profil/image20.png)

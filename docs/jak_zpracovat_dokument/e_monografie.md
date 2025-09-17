@@ -1,7 +1,3 @@
----
-status: new
----
-
 # NDK Svazek eMonografie
 
 **Prohlédněte si krátký videonávod nebo projděte podrobný postup zpracování níže.**
@@ -15,8 +11,6 @@ status: new
     frameborder="0" 
     allowfullscreen>
     </iframe>
-
-    [:fontawesome-solid-download: Stáhnout video ](../jak_zpracovat_dokument/media/e_monografie/emonografie_v2.mp4)
 
 ---
 

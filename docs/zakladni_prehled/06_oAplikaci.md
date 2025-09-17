@@ -7,4 +7,4 @@ Tuto informaci využijete např. při hlášení chyby na [GitHubu](https://gith
 specifikovat, ve které verzi se problém vyskytl. Stejně tak pokud máte
 testovací a produkční instanci, mohou se verze lišit.
 
-![](./media/06_oAplikaci/image1.png)
+![](./media/06_oAplikaci/image1.png){ width=400 .center }

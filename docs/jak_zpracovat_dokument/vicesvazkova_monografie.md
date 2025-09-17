@@ -1,7 +1,3 @@
----
-status: new
----
-
 # NDK Vícedílná monografie
 
 Vícedílná monografie by se dala ve zkratce definovat tím, že musí
@@ -10,9 +6,10 @@ jednotlivých svazků (dílů).
 
 Aby bylo možné titul zpracovat jako vícedílnou monografii podle
 standardů NDK, musí katalogizační záznam obsahovat přesně definovanou
-kombinaci hodnot v polích MARC21. Pouhá přítomnost číslování v poli 245
-nestačí - rozhodující jsou hodnoty v poli LDR: LDR/07 =   "m" (označuje
-monografii), LDR/19 =   "a" (označuje vícedílný dokument).
+kombinaci hodnot v polích MARC21.  
+Pouhá přítomnost číslování v poli `245`
+nestačí - rozhodující jsou hodnoty v poli `LDR: LDR/07 =   "m"` (označuje
+monografii), `LDR/19 =   "a"` (označuje vícedílný dokument).
 
 ## Vytvoření digitálního dokumentu (objektu)
 
@@ -34,13 +31,13 @@ bude nadřazená jednotlivým svazkům (dílům), které přidáte následně.
 !!! tip "Tip"
     Doporučujeme využít **funkci pro načtení metadat z katalogu** - tím se předejde ručnímu vyplňování a zajistí se správné naplnění povinných polí podle standardů NDK.
 
-![](./media/vicesvazkova_monografie/image2.png)
+![](./media/vicesvazkova_monografie/image2.png){width=600}
 
 Nejprve zvolte katalog a kritérium vyhledávání (např. **signatura**,
 **ISBN**, **číslo ČNB** apod.). Zadejte hledaný výraz a potvrďte
 kliknutím na tlačítko **Vyhledat**.
 
-![](./media/vicesvazkova_monografie/image3.png)
+![](./media/vicesvazkova_monografie/image3.png){width=600}
 
 Zobrazí se katalogový záznam ve formátu MARC21. Pokud odpovídá vašemu
 hledanému dokumentu, klikněte na **Vytvořit**.
@@ -62,7 +59,7 @@ Systém automaticky kontroluje povinná pole. Pokud některé pole označené
 jako povinné - **M (Mandatory)** chybí, objekt se neuloží. Chybějící
 položky se zvýrazní červeně.
 
-![](./media/vicesvazkova_monografie/image5.png)
+![](./media/vicesvazkova_monografie/image5.png){width=400}
 
 Po úspěšném uložení budete přesměrováni buďto do editačního okna (při
 volbě **Vytvořit a přejít do objektu**), nebo do úložiště, odkud můžete
@@ -94,7 +91,7 @@ Vícedílné monografie**).
 Zvolte **pozici**, kam se nový objekt ve struktuře vloží: **Na konec**,
 nebo **Za vybraný** (nový svazek se vloží za aktuálně označený).
 
-![](./media/vicesvazkova_monografie/image9.png)
+![](./media/vicesvazkova_monografie/image9.png){width=600}
 
 Opět si můžete vybrat mezi:
 
@@ -109,7 +106,7 @@ známo.
 !!! tip "Doporučujeme"
     Nejprve založit všechny svazky pomocí volby Vytvořit, a teprve poté provádět další editace.
 
-![](./media/vicesvazkova_monografie/image10.png)
+![](./media/vicesvazkova_monografie/image10.png){width=600}
 
 Vpravo vidíte **Strom** - stromovou strukturu zakládaného objektu,
 prozatím je vytvořen pouze první svazek vícedílky:
@@ -121,7 +118,7 @@ přebere některé údaje z nadřazené úrovně (v souladu se standardem NDK).
 Povinné údaje, které je potřeba doplnit ručně, jsou označeny červeně v
 rozbalovacím seznamu elementů, např.:
 
-![](./media/vicesvazkova_monografie/image12.png)
+![](./media/vicesvazkova_monografie/image12.png){width=600}
 
 Pořadí svazků lze upravit dvěma způsoby:
 
@@ -176,19 +173,19 @@ Průběh načítání jedné dávky: Po spuštění se zobrazí dialogové okno 
 průběhem importu. Okno je možné zavřít, proces bude pokračovat na
 pozadí. Stav lze průběžně sledovat v sekci **Správa procesů**.
 
-![](./media/vicesvazkova_monografie/image15.png)
+![](./media/vicesvazkova_monografie/image15.png){width=400}
 
 Průběh načítání více dávek: K importu lze označit a načíst **více dávek
 najednou** - dávky se následně řadí do fronty a zpracovávají se
 postupně. Pro sledování stavu přejděte rovnou do Správy importních
 procesů a klikněte na **Zobrazit frontu načítání**.
 
-![](./media/vicesvazkova_monografie/image16.png)
+![](./media/vicesvazkova_monografie/image16.png){width=400}
 
 Zobrazí se tabulka s průběhem importu, kterou je možné aktualizovat
 tlačítkem **Obnovit**.
 
-![](./media/vicesvazkova_monografie/image17.png)
+![](./media/vicesvazkova_monografie/image17.png){width=600}
 
 Po dokončení načítání daný proces zmizí z aktuálního zobrazení.  
 Pro další zpracování přejděte na **Seznam všech procesů**, kde je
@@ -266,7 +263,7 @@ Následně se skeny začnou ukládat:
 Po uložení se zobrazí tato hláška. Zde klikněte na **Otevřít
 v editoru**.
 
-![](./media/vicesvazkova_monografie/image28.png)
+![](./media/vicesvazkova_monografie/image28.png){width=400}
 
 ## Úprava (editace) dokumentu
 
@@ -392,4 +389,4 @@ nakonfigurována.
 
 Cílové umístění exportu zvolte v dialogovém okně pomocí roletky.
 
-![](./media/vicesvazkova_monografie/image40.png)
+![](./media/vicesvazkova_monografie/image40.png){width=500}

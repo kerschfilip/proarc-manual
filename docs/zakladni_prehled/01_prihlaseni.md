@@ -7,7 +7,7 @@ optimalizován pro Google Chrome a Firefox.
 Administrátor vám vytvoří uživatelský účet, přidělí iniciální heslo a
 sdělí webovou adresu aplikace, na které se můžete snadno přihlásit:
 
-![](./media/01_prihlaseni/image1.png)
+![](./media/01_prihlaseni/image1.png){ width=500 align:center }
 
 **Horní navigační lišta je dostupná ve všech částech aplikace a je rozdělena na**:
 

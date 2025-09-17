@@ -1,8 +1,18 @@
---- 
-status: new
----
-
 # NDK svazek monografie
+
+**Prohlédněte si krátký videonávod nebo projděte podrobný postup zpracování níže.**
+
+!!! note "Videonávod"
+    <iframe 
+    width="640" 
+    height="360" 
+    src="https://drive.google.com/file/d/17O6lI3ZTrL0qv0eJlxO82miDPiduooAc//preview"
+    allow="autoplay; encrypted-media" 
+    frameborder="0" 
+    allowfullscreen>
+    </iframe>
+    
+---
 
 NDK svazek monografie patří mezi textové dokumenty - tedy díla vzniklá
 digitalizací tištěných nebo ručně psaných předloh. Do této skupiny
@@ -22,7 +32,7 @@ V navigační liště úložiště klikněte na možnost **Nový objekt**.
 Zobrazí se dialogové okno, které slouží pro založení všech typů
 dokumentů (modelů).
 
-![](./media/monografie/image2.png)
+![](./media/monografie/image2.png){width=600}
 
 **Model** - V rozbalovací nabídce vyberte typ objektu, který chcete
 vytvořit. K dispozici jsou modely odpovídající standardům NDK, včetně
@@ -53,7 +63,7 @@ Systém automaticky kontroluje vyplnění povinných polí podle standardů
 NDK. Pokud některé pole označené jako **M (Mandatory)** není vyplněno,
 uložení nebude umožněno a chybná pole budou zvýrazněna červeně.
 
-![](./media/monografie/image5.png)
+![](./media/monografie/image5.png){width=400 .bordered}
 
 !!! info "Ostatní povinnosti vyplnění formuláře jsou následující:" 
     - **M** - mandatory (povinně vyplnit - element je součástí každého záznamu)
@@ -138,14 +148,14 @@ Po spuštění načítání se v případě jedné dávky zobrazí dialogové ok
 průběhem importu. Toto okno můžete **Zavřít** - načítání bude i nadále
 probíhat na pozadí.
 
-![](./media/monografie/image11.png)
+![](./media/monografie/image11.png){.center .bordered}
 
 Aktuální stav importu můžete sledovat ve **Správě importních procesů**.
 V případě souběžného spuštění více dávek budete automaticky přesměrováni
 do **Správy importních procesů**. Zde klikněte na možnost **Zobrazit
 frontu načítání**.
 
-![](./media/monografie/image12.png)
+![](./media/monografie/image12.png){.center .bordered}
 
 V tabulkovém zobrazení uvidíte průběh importu jednotlivých dávek. Aktuální stav lze ručně aktualizovat pomocí tlačítka **Obnovit**.
 
@@ -191,7 +201,7 @@ Jakmile jsou všechny strany popsány povinným elementem (např. číslem
 strany), klikněte na tlačítko **Pokračovat**. Systém provede validaci
 záznamů.
 
-![](./media/monografie/image18.png)
+![](./media/monografie/image18.png){.center .bordered}
 
 Pokud některé strany chybí nebo obsahují chybu, zobrazí se upozornění a
 problémové strany budou červeně zvýrazněny pro snadnou identifikaci.
@@ -206,7 +216,7 @@ názvu titulu. V horní části okna označte požadovaný cílový objekt. Po
 uložení máte opět dvě možnosti - otevřít objekt rovnou v editoru
 úložiště, vyhledat jej později v hlavním okně úložiště.
 
-![](./media/monografie/image20.png)
+![](./media/monografie/image20.png){.center .bordered}
 
 ## Úprava (editace) dokumentu
 
@@ -258,7 +268,7 @@ Pokud ale digitalizujete i pro jinou instituci, která je registrátorem,
 a máte oprávnění registrovat dokumenty jejím jménem, může být v seznamu
 dostupná i ona - záleží na konfiguraci ProArcu.
 
-![](./media/monografie/image25.png)
+![](./media/monografie/image25.png){width=500}
 
 Po úspěšné registraci obdržíte zpětnou vazbu od resolveru. Identifikátor
 URN:NBN je automaticky zapsán do metadat dokumentu jako platný
@@ -291,4 +301,4 @@ nakonfigurována.
 
 Cílové umístění exportu zvolte v dialogovém okně pomocí roletky.
 
-![](./media/monografie/image27.png)
+![](./media/monografie/image27.png){width=550}

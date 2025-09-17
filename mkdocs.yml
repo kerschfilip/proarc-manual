@@ -46,7 +46,8 @@ copyright: Copyright &copy; 2025 Knihovna Akademie věd ČR, v. v. i.
 
 nav:
   - Úvod:
-      - Základní informace: index.md
+      - Obsah: index.md
+      - O systému ProArc: o_proarcu.md
       - Historie projektu a financování: historie_projektu_a_financovani.md
       - Kontakt: kontakt.md
       - Chybí něco v návodu?: chybi_neco_v_navodu.md
@@ -67,12 +68,12 @@ nav:
         - Periodika: jak_zpracovat_dokument/periodika.md
         - E-monografie: jak_zpracovat_dokument/e_monografie.md
         - Vícesvazková E-monografie: jak_zpracovat_dokument/vicesvazkova_e_monografie.md
-        - Zvukové dokumenty: jak_zpracovat_dokument/zvukove_dokumenty.md
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji 
       emoji_generator: !!python/name:material.extensions.emoji.to_svg

@@ -1,8 +1,4 @@
-﻿---
-status: new
----
-
-# NDK Periodikum 
+﻿# NDK Periodikum 
 
 Periodikum je dokument vydávaný opakovaně v samostatných částech, které
 spojuje společný název, průběžné číslování nebo jiné posloupnosti,
@@ -14,7 +10,7 @@ jsou noviny, časopisy nebo periodické sborníky.
 V katalogových záznamech jsou periodika rozpoznatelná podle hodnoty
 **"s"** v poli **LDR/07**, která označuje **seriál** (dokument
 vydávaný průběžně).  
-Tato hodnota odlišuje periodika od monografií (LDR/07 = "m") a je
+Tato hodnota odlišuje periodika od monografií (`LDR/07 = "m"`) a je
 rozhodující pro výběr odpovídajícího modelu v rámci zpracování v
 ProArcu.
 
@@ -182,7 +178,7 @@ se zobrazí dialog, kde do pole **Pozice** zadáte číslo určující pozici,
 kam se má objekt přesunout (v ukázce v rozmezí 1-4, protože máme
 založeny 4 ročníky) a potvrdit kliknutím na **Přesunout**.
 
-![](./media/periodika/image17.png)
+![](./media/periodika/image17.png){width=500}
 
 Ročník se přesune na vámi vybrané místo. Jakmile obrazovka zašedne, je
 potřeba ještě změnu uložit ikonou **diskety**. Obnovit zobrazení lze
@@ -265,14 +261,14 @@ zpracují se postupně. Po spuštění načítání se v případě jedné dávk
 zobrazí dialogové okno s průběhem importu. Toto okno můžete **Zavřít**
 - načítání bude i nadále probíhat na pozadí.
 
-![](./media/periodika/image24.png)
+![](./media/periodika/image24.png){.bordered}
 
 Aktuální stav importu můžete sledovat ve **Správě importních procesů**.
 V případě souběžného spuštění více dávek budete automaticky přesměrováni
 do **Správy importních procesů**. Zde klikněte na možnost **Zobrazit
 frontu načítání**.
 
-![](./media/periodika/image25.png)
+![](./media/periodika/image25.png){.bordered}
 
 V tabulkovém zobrazení uvidíte průběh importu jednotlivých dávek.  
 Aktuální stav lze ručně aktualizovat pomocí tlačítka **Obnovit**.
@@ -412,7 +408,7 @@ Po kliknutí na **Přesunout** se zobrazí potvrzovací dialog „Přesun
 objektů - Opravdu chcete přesunout vybrané objekty do nově zvoleného
 objektu?" Potvrďte kliknutím na **Ano**.
 
-![](./media/periodika/image35.png)
+![](./media/periodika/image35.png){width=500}
 
 Skeny se tímto přesunou do správné úrovně (např. konkrétní číslo). Po
 přesunu to vypadá takto:
@@ -433,7 +429,7 @@ Po kliknutí na tlačítko se zobrazí dialog, ve kterém stačí potvrdit akci
 kliknutím na **Ano** - tím potvrdíte, že chcete reindexovat všechny
 strany daného čísla.
 
-![](./media/periodika/image38.png)
+![](./media/periodika/image38.png){width=400}
 
 ## Přidělení URN:NBN
 
@@ -482,4 +478,4 @@ nakonfigurována.
 
 Cílové umístění exportu zvolte v dialogovém okně pomocí roletky.
 
-![](./media/periodika/image41.png)
+![](./media/periodika/image41.png){width=500}
