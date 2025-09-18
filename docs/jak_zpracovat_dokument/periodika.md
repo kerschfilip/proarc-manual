@@ -1,5 +1,19 @@
 ﻿# NDK Periodikum 
 
+**Prohlédněte si krátký videonávod nebo projděte podrobný postup zpracování níže.**
+
+!!! note "Videonávod"
+    <iframe 
+    width="640" 
+    height="360" 
+    src="https://drive.google.com/file/d/1W15g_IJqyJGeWGhgWbUpn5bfQhDI_iVU/preview"
+    allow="autoplay; encrypted-media" 
+    frameborder="0" 
+    allowfullscreen>
+    </iframe>
+    
+---
+
 Periodikum je dokument vydávaný opakovaně v samostatných částech, které
 spojuje společný název, průběžné číslování nebo jiné posloupnosti,
 jednotná grafická úprava a tematické zaměření. Tyto části vycházejí v
@@ -54,10 +68,10 @@ Objekt lze založit dvěma způsoby:
 
 - **Načíst metadata z katalogu** - doporučený postup. Po kliknutí na
   toto tlačítko se otevře další dialog, kde zvolíte katalog, typ
-  hledaného údaje (např. název, ISSN, čárový kód) a konkrétní dotaz.
+  hledaného údaje (např. název, pole 001, ISSN, čárový kód) a konkrétní dotaz.
 
 !!! tip Tip
-    Periodikum hledejte podle ISSN, dostanete nejrelevantnější výsledek.
+    Periodikum hledejte podle pole `001` nebo `sysno`, dostanete nejrelevantnější výsledek.
 
 ![](./media/periodika/image4.png)
 
@@ -309,7 +323,7 @@ Rozložení je individuální - každému může vyhovovat něco jiného.
 Na ukázce níže jsou zobrazena podokna: **Náhledy**, **Popisná metadata**
 a **Obrázek**:
 
-![](./media/periodika/image29.png)
+![](./media/periodika/image29_new.png)
 
 V případě, že máte čísla svázaná dohromady do jednoho svazku, je dobré
 si načíst celý svazek, ten očíslovat, opaginovat, doporučujeme také

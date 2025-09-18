@@ -1,5 +1,17 @@
 # Profil
 
+!!! note "Videonávod"
+    <iframe 
+    width="640" 
+    height="360" 
+    src="https://drive.google.com/file/d/1ZgcE0nniKFW_pvGv_QiAkDq276ypII31/preview"
+    allow="autoplay; encrypted-media" 
+    frameborder="0" 
+    allowfullscreen>
+    </iframe>
+    
+---
+
 Pod tlačítkem **Profil** najdete možnosti individuálního nastavení
 prostředí a odhlášení z aplikace.
 

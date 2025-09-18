@@ -53,7 +53,7 @@ nav:
       - Chybí něco v návodu?: chybi_neco_v_navodu.md
   - Základní přehled:
       - Přihlášení a navigace: zakladni_prehled/01_prihlaseni.md
-      - Obrazovka úložiště: zakladni_prehled/02_uloziste.md
+      - Obrazovka úložiště a hledání: zakladni_prehled/02_uloziste.md
       - Import a Správa procesů: zakladni_prehled/03_import.md
       - Zařízení: zakladni_prehled/04_zarizeni.md
       - Administrace: zakladni_prehled/05_administrace.md

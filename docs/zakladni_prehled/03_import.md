@@ -1,5 +1,17 @@
 # Import a Správa procesů 
 
+!!! note "Videonávod"
+    <iframe 
+    width="640" 
+    height="360" 
+    src="https://drive.google.com/file/d/1GiIMGIDqA6io6xsR6GEl8z3tVP83Geqv/preview"
+    allow="autoplay; encrypted-media" 
+    frameborder="0" 
+    allowfullscreen>
+    </iframe>
+    
+---
+
 Každý uživatel má v ProArcu přiřazeny pracovní adresáře. O jejich
 namapování informuje uživatele systémový administrátor.
 

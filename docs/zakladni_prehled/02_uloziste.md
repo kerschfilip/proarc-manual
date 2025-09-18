@@ -1,4 +1,16 @@
-# Obrazovka úložiště 
+# Obrazovka úložiště a hledání
+
+!!! note "Videonávod"
+    <iframe 
+    width="640" 
+    height="360" 
+    src="https://drive.google.com/file/d/18F2u5IqPNNBnFtambkucdtjvA_1JchlJ/preview"
+    allow="autoplay; encrypted-media" 
+    frameborder="0" 
+    allowfullscreen>
+    </iframe>
+    
+---
 
 Po přihlášení se otevře hlavní přehledová obrazovka - **úložiště**.
 Obrazovka je rozdělena do dvou horizontálních podoken. Objekt vybraný v

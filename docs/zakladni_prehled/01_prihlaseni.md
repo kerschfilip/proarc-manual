@@ -1,5 +1,17 @@
 # Přihlášení a hlavní navigační lišta 
 
+!!! note "Videonávod"
+    <iframe 
+    width="640" 
+    height="360" 
+    src="https://drive.google.com/file/d/1mBPFELS5GO12QsPdVw07NXm-ahiBr0bO/preview"
+    allow="autoplay; encrypted-media" 
+    frameborder="0" 
+    allowfullscreen>
+    </iframe>
+    
+---
+
 Uživatelské prostředí systému ProArc je webový klient, který lze
 spouštět v libovolném internetovém prohlížeči. Systém je však
 optimalizován pro Google Chrome a Firefox.

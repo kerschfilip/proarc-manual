@@ -7,7 +7,8 @@ Postupy jsou připraveny pro:
 - [Monografie](./monografie.md)
 - [Vícesvazková monografie](./vicesvazkova_monografie.md)
 - [Periodika](./periodika.md)
-- [E-monografie](./e_monografie.md)
+- [eMonografie](./e_monografie.md)
+- [Vícesvazková eMonografie](./vicesvazkova_e_monografie.md)
 
 !!! question "Chybí vám něco v návodu?"
     Pokud něčemu nerozumíte, nebo byste rádi navrhli doplnění či úpravu návodu, dejte nám vědět.  
