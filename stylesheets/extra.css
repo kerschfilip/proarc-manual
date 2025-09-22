@@ -1,0 +1,15 @@
+:root  > * {
+  --md-primary-fg-color:        #456AA5;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bordered {
+  border: 1px solid gray;
+}
