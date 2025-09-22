@@ -371,7 +371,7 @@ pod ikonou **tří teček**.
 
 Podokno se zobrazenými stranami (ve formě tabulky nebo náhledů) umožňuje
 jednotlivé strany nebo **více vybraných stran** přesouvat na nové pozice
-v rámci dokumentu - buď přetažením myší, nebo přes funkcionalitu
+v rámci dokumentu - buď přetažením myší, nebo přes funkci
 **Změnit pozici**.
 
 Nacházíte-li se v úrovni podřízených objektů (např. strany), můžete se

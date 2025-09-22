@@ -23,7 +23,7 @@ Systém v současnosti podporuje popis a zpracování:
 - elektronických periodik a monografií,
 - starých tisků, včetně konvolutů.
 
-## Funkcionality systému
+## Funkce systému
 - Evidence digitalizačního workflow.
 - Import skenů, konverze do JPG2000, prioritizace importu, správa zařízení.
 - Generování UUID
